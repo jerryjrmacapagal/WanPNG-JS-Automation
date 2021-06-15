@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Jobseeker can able to add work experience without Company Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e552da58-1ec3-41a0-a796-0b6021ec17e0</testCaseGuid>
+</TestCaseEntity>

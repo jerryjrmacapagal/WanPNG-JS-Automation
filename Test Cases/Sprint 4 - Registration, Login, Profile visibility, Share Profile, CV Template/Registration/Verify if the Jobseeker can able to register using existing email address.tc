@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can able to register using existing email address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8507c0de-05dc-4030-b50a-384f5bf8ded9</testCaseGuid>
+</TestCaseEntity>

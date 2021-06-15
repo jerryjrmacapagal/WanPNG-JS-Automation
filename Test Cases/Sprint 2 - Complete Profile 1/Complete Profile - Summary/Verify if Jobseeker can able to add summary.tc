@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Jobseeker can able to add summary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb15985e-13c9-4834-8490-558d336110cf</testCaseGuid>
+</TestCaseEntity>

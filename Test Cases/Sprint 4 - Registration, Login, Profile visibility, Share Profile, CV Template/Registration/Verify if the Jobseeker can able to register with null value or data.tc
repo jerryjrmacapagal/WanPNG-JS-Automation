@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can able to register with null value or data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5111393-aede-47d7-a8aa-53767b5ab298</testCaseGuid>
+</TestCaseEntity>

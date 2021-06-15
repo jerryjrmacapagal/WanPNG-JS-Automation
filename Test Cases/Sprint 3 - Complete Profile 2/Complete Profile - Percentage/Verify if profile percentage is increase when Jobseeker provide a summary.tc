@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if profile percentage is increase when Jobseeker provide a summary</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f7582f9-91dc-4155-b27c-791f2c49ecce</testCaseGuid>
+</TestCaseEntity>

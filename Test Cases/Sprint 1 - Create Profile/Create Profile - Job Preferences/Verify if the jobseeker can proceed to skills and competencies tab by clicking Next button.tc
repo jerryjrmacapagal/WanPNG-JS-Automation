@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can proceed to skills and competencies tab by clicking Next button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1e67f73-b78c-4f1a-ae3d-06df8629307a</testCaseGuid>
+</TestCaseEntity>

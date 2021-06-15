@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Jobseeker can able to select Clean CV template</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d52f5fdb-9617-48ec-a315-253137a36b73</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobs are sorted by relevance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2f62cdd-a73b-4e63-8de9-a6c67c33368d</testCaseGuid>
+</TestCaseEntity>

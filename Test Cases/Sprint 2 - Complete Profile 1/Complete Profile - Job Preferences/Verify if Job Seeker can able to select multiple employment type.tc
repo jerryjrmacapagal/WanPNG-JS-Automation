@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Job Seeker can able to select multiple employment type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5ce9b28-4106-4d27-a67e-71a33a812a5e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Job Seeker can able to update training background information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6bb8124-f0d6-4c91-8797-52b18de0bb47</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can able to register without a first name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9893f4e-dca5-441c-86a2-fa00b2a9868c</testCaseGuid>
+</TestCaseEntity>

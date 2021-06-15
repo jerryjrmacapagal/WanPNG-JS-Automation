@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search result container</name>
+   <tag></tag>
+   <elementGuidId>a8d49125-a73f-47c3-b03d-cc03d82b2125</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.jobs-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>jobs-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>88 jobs foundSort by: Relevance Architectural EngineerLumos Company48 days agoCentralMid-Senior LevelFreelanceSaveBiomedical EngineerLumos Company48 days agoEast SepikMid-Senior LevelFreelanceSaveChief EngineerLumos Company48 days agoCentralMid-Senior LevelFreelanceSaveConstruction EngineerLumos Company48 days agoEast SepikMid-Senior LevelFreelanceSaveComputer EngineerLumos Company48 days agoEngaInternshipPart TimeSaveConstruction EngineerLumos Company48 days agoEast SepikMid-Senior LevelFreelanceSaveRF EngineerLumos Company48 days agoCentralMid-Senior LevelFreelanceSavePetroleum EngineerLumos Company48 days agoEast SepikMid-Senior LevelFreelanceSaveRF EngineerLumos Company48 days agoCentralMid-Senior LevelFreelanceSaveElectrical Project EngineerLumos Company48 days agoCentralMid-Senior LevelFreelanceSave12345</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;main-section -jobs-search&quot;]/div[@class=&quot;jobs-search-section&quot;]/div[@class=&quot;search-result-container&quot;]/div[@class=&quot;content-container&quot;]/div[@class=&quot;jobs-container&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

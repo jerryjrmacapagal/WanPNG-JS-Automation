@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can login without email address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87af1455-c5d2-4a0f-9d1e-c564cfebe000</testCaseGuid>
+</TestCaseEntity>

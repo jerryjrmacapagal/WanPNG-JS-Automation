@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the skills and competencies section is updated after saving the changes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a530caac-e758-436d-b952-de1121dfe58a</testCaseGuid>
+</TestCaseEntity>

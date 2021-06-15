@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Jobseeker can able to proceed to the next step using changing of URL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d047ae96-e2b9-4a12-a0b8-68aebe307367</testCaseGuid>
+</TestCaseEntity>

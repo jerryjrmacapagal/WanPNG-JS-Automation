@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker is redirected to the job details after clicking the job link</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c346403-4cdf-4ccf-a01d-3a6d2f7f25f5</testCaseGuid>
+</TestCaseEntity>

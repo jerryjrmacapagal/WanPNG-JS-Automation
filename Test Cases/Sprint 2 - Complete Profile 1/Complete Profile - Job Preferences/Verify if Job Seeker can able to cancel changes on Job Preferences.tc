@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Job Seeker can able to cancel changes on Job Preferences</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc6a5bf6-8062-4a9b-bce1-87b8baea359e</testCaseGuid>
+</TestCaseEntity>

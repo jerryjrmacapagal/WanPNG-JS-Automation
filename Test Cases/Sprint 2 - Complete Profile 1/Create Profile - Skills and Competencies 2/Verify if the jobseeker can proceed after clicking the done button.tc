@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can proceed after clicking the done button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c573a5d2-8033-4b71-a563-9f75721ee6b2</testCaseGuid>
+</TestCaseEntity>

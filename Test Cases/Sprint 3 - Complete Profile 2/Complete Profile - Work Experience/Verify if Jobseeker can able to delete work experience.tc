@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Jobseeker can able to delete work experience</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6866b5d6-3f1f-4ae6-a14e-a2c7309f4635</testCaseGuid>
+</TestCaseEntity>

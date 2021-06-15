@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can proceed without selecting a city or village</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a896623e-c49e-455b-b3dc-15cc19b8d96b</testCaseGuid>
+</TestCaseEntity>

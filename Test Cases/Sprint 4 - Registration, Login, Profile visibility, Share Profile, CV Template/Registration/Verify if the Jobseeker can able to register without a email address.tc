@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can able to register without a email address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bc9f3ff-abd4-40d2-a03e-a72b9e94cb4f</testCaseGuid>
+</TestCaseEntity>

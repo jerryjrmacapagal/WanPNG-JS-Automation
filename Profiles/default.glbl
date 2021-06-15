@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your city or village.'</initValue>
+      <name>villageValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your date of birth.'</initValue>
+      <name>birthdateValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select your sex.'</initValue>
+      <name>sexValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your first name.'</initValue>
+      <name>firstNameValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your last name.'</initValue>
+      <name>lastNameValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select your impact area.'</initValue>
+      <name>impactAreaValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Email address is required'</initValue>
+      <name>emailValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your mobile number.'</initValue>
+      <name>mobileValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select your province.'</initValue>
+      <name>provinceValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job preferences'</initValue>
+      <name>jobPreferencesTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'What career level and employment type are you currently seeking?'</initValue>
+      <name>jobPreferencesSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Career Level'</initValue>
+      <name>careerLevelLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employment type'</initValue>
+      <name>employmentTypeLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Back'</initValue>
+      <name>backButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Next'</initValue>
+      <name>nextButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.100.205:30300/'</initValue>
+      <name>localhost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'13 Aug 1989'</initValue>
+      <name>birthdateValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Male'</initValue>
+      <name>maleSex</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Female'</initValue>
+      <name>femaleSex</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'APDL 11'</initValue>
+      <name>impactAreaValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select a career level.'</initValue>
+      <name>careerLevelValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select an employment type.'</initValue>
+      <name>employmentTypeValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a skill or competency.'</initValue>
+      <name>skillValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select a level of expertise.'</initValue>
+      <name>skillLevelValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Programming'</initValue>
+      <name>skillValueProgramming</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mid-Senior level'</initValue>
+      <name>careerLevelValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Full Time'</initValue>
+      <name>employmentTypeValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Full Time'</initValue>
+      <name>fullTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Part Time'</initValue>
+      <name>partTime</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Contract'</initValue>
+      <name>contract</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Freelance'</initValue>
+      <name>freelance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Internship'</initValue>
+      <name>internship</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Entry Level'</initValue>
+      <name>entryLevel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mid-Senior Level'</initValue>
+      <name>midSeniorLevel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Executive'</initValue>
+      <name>executive</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Skills and competencies'</initValue>
+      <name>skillCompetenciesTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Add your skills and competencies to your profile to help employers find you! You can add more later.'</initValue>
+      <name>skillsCompetenciesSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Done'</initValue>
+      <name>doneButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Skill or competency'</initValue>
+      <name>skillOrCompetencyLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Level'</initValue>
+      <name>skillLevelLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Add'</initValue>
+      <name>addButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Basic'</initValue>
+      <name>basicLevel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Intermediate'</initValue>
+      <name>intermediateLevel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Advanced'</initValue>
+      <name>advancedLevel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Advanced skills'</initValue>
+      <name>advancedSkillsLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Basic skills'</initValue>
+      <name>basicSkillsLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Intermediate skills'</initValue>
+      <name>intermediateSkillsLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You already added this skill'</initValue>
+      <name>skillDuplicateMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AutoCAD'</initValue>
+      <name>skillValueAutoCAD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Front-End Developer'</initValue>
+      <name>skillFrontEndDevelopment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Summary'</initValue>
+      <name>summaryTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Work experience'</initValue>
+      <name>workExperienceTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Education'</initValue>
+      <name>educationTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Training'</initValue>
+      <name>trainingTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Skills &amp; competencies'</initValue>
+      <name>skillsAndCompetenciesTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Profile visibility'</initValue>
+      <name>profileVisibilityTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>' Change your email, password, date of birth, and sex in Account Settings.'</initValue>
+      <name>editPersonalInfoNote</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Edit Personal information'</initValue>
+      <name>editPersonalInfoTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Save'</initValue>
+      <name>saveButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Cancel'</initValue>
+      <name>cancelButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Update Photo'</initValue>
+      <name>updatePhotoButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Discard changes?'</initValue>
+      <name>discardChangesTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'The changes you made will not be saved.'</initValue>
+      <name>discardChangesSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Discard'</initValue>
+      <name>discardButtonText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>' Update photo'</initValue>
+      <name>updatePhotoText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qa.tester+'</initValue>
+      <name>kcEmailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ubidy12345!'</initValue>
+      <name>kcPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bougainville Region, '</initValue>
+      <name>updatedCityPersonalInfo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'</initValue>
+      <name>summaryValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information. I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information. I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information.I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information.I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information.I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information.I am a highly organized, dedicated and diplomatic Engineering, with a proven ability to improve working environments and a commitment to employee welfare. I am also proficient in business, reflected in familiarity with payroll systems and employment law. I possess strong interpersonal skills, demonstrating the utmost discretion and integrity when dealing with confidential information.'</initValue>
+      <name>summaryLimit</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Must be at most 2000 characters.'</initValue>
+      <name>summaryValidationMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.'</initValue>
+      <name>updateSummaryValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Availability'</initValue>
+      <name>availabilityLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Immediately'</initValue>
+      <name>availableImmediately</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2 weeks'</initValue>
+      <name>available2Weeks</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4 weeks'</initValue>
+      <name>available4Weeks</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8 weeks'</initValue>
+      <name>available8Weeks</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12+ weeks'</initValue>
+      <name>available12Weeks</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Availability is required'</initValue>
+      <name>availabilityValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tell us what kind of work you’re currently seeking.'</initValue>
+      <name>editJobPreferencesSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'@ubidy.com'</initValue>
+      <name>kcDomain</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>' '</initValue>
+      <name>space</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You’ve reached the limit of 20 skills.'</initValue>
+      <name>maximumSkillsValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mechanical Engineering'</initValue>
+      <name>suggestedSkill</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hill Valley Academy'</initValue>
+      <name>schoolValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'No Formal Education'</initValue>
+      <name>noFormalEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Elementary'</initValue>
+      <name>elementaryEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Secondary (Grades 9-12)'</initValue>
+      <name>secondaryEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Upper Primary (Grades 7-8)'</initValue>
+      <name>upperPrimary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bachelor\'s'</initValue>
+      <name>bachelorsEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Masters'</initValue>
+      <name>mastersEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'PhD'</initValue>
+      <name>phdEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Secondary (Grades 9-12)'</initValue>
+      <name>fieldOfStudyValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2001'</initValue>
+      <name>startedYearValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit'</initValue>
+      <name>descriptionValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a school or university.'</initValue>
+      <name>schoolUniversityValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select a level of education.'</initValue>
+      <name>levelOfEducationValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Field of study is required'</initValue>
+      <name>fieldOfStudyValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Started month is required'</initValue>
+      <name>startedMonthValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select year started.'</initValue>
+      <name>startedYearValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please input the correct month ended'</initValue>
+      <name>endedMonthValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please select year ended (or expected to finish).'</initValue>
+      <name>endedYearValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Description is required'</initValue>
+      <name>descriptionValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2005'</initValue>
+      <name>endedYearValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Greendale Community College'</initValue>
+      <name>schoolValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mechanical Engineering'</initValue>
+      <name>fieldOfStudyValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2006'</initValue>
+      <name>startedYearValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2011'</initValue>
+      <name>endedYearValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Delete'</initValue>
+      <name>deleteButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Delete this education?'</initValue>
+      <name>deleteTitleEducation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You\'re about to delete your education at'</initValue>
+      <name>deleteSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pendleton State University'</initValue>
+      <name>trainingInstitutionValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Mechanical Engineering'</initValue>
+      <name>trainingTitleValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2010'</initValue>
+      <name>trainingStartedYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2011'</initValue>
+      <name>trainingEndedYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Add training'</initValue>
+      <name>addTraining</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a training institution.'</initValue>
+      <name>institutionValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a training title.'</initValue>
+      <name>trainingValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pennbrook University'</initValue>
+      <name>trainingInstitutionValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Electrical Engineer'</initValue>
+      <name>trainingTitleValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I don\'t have additional training'</initValue>
+      <name>noTrainingText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'This section will not be visible on your profile.'</initValue>
+      <name>notVisibleOnProfileText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I don’t have additional training'</initValue>
+      <name>noTrainingTextButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Delete this training?'</initValue>
+      <name>deleteTitleTraining</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Measured Results Marketing'</initValue>
+      <name>companyName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Madang'</initValue>
+      <name>locationValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2014'</initValue>
+      <name>workEndedYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Electrical Engineer'</initValue>
+      <name>jobTitleValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'IMPACT'</initValue>
+      <name>companyName2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Buka'</initValue>
+      <name>locationValue2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I don\'t have work experience yet.'</initValue>
+      <name>noWorkExpText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job title is required'</initValue>
+      <name>jobTitleValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Company name is required'</initValue>
+      <name>companyNameValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Location is required'</initValue>
+      <name>locationValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Delete this work experience?'</initValue>
+      <name>deleteWorkExpModalTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Are you sure you want to delete this position of'</initValue>
+      <name>deleteWorkExpSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'% completed'</initValue>
+      <name>profilePercentTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'40'</initValue>
+      <name>fortyPercent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'60'</initValue>
+      <name>sixtyPercent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'80'</initValue>
+      <name>eightyPercent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'100'</initValue>
+      <name>hundredPercent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Complete your profile by adding more details about you to have a better chance of getting hired!'</initValue>
+      <name>profilePercentSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jerry.macapagal+00@ubidy.com'</initValue>
+      <name>registeredEmail1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Join now to find your perfect job!'</initValue>
+      <name>registerTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'First name'</initValue>
+      <name>firstNameLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Last name'</initValue>
+      <name>lastNameLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Email address'</initValue>
+      <name>emailAddressLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Create a password'</initValue>
+      <name>createPasswordLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Show'</initValue>
+      <name>showLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hide'</initValue>
+      <name>hideLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'By joining, you agree to the Wan PNG Terms of Use and Privacy Policy.'</initValue>
+      <name>termsAndPolicyLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Already have a Wan PNG account? Log in'</initValue>
+      <name>redirectToLoginPageLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Join now'</initValue>
+      <name>joinNowText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'or'</initValue>
+      <name>orText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sign up with Facebook'</initValue>
+      <name>signUpFacebook</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sign up with Google'</initValue>
+      <name>signUpGoogle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your email address.'</initValue>
+      <name>specifyEmailRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your first name.'</initValue>
+      <name>specifyFirstNameRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your last name.'</initValue>
+      <name>specifyLastNameRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your password.'</initValue>
+      <name>specifyPasswordRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invalid email address.'</initValue>
+      <name>invalidEmailRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your email address.\r\nPlease enter your first name.\r\nPlease enter your last name.\r\nPlease enter your password.'</initValue>
+      <name>emptyFieldsRegistration</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Log in'</initValue>
+      <name>logInLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Password'</initValue>
+      <name>passwordLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Forgot your password?'</initValue>
+      <name>forgotPasswordText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Log in with Facebook'</initValue>
+      <name>loginWithFacebook</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Log in with Google'</initValue>
+      <name>loginWithGoogle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Don\'t have Wan PNG account yet? Join now'</initValue>
+      <name>noAccountText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your email address.'</initValue>
+      <name>loginEmailValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your password.'</initValue>
+      <name>loginPasswordValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a valid email address.'</initValue>
+      <name>loginInvalidEmailValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'An account with this email already exists.'</initValue>
+      <name>emailExistValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'WanPNG123'</initValue>
+      <name>otherPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You entered an incorrect email or password. Please try again.'</initValue>
+      <name>invalidCredentialsLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qa.tester+1png@ubidy.com'</initValue>
+      <name>otherEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Standard'</initValue>
+      <name>standardTemplate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Compact'</initValue>
+      <name>compactTemplate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Control how employers view and search your profile.'</initValue>
+      <name>profileVisibilitySubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Standard (Default)'</initValue>
+      <name>standardDefaultTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employers can view my profile and contact me directly or via Wan PNG.'</initValue>
+      <name>standardVisibilityContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Limited'</initValue>
+      <name>limitedVisibilityTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employers can view my profile and contact me only via Wan PNG.'</initValue>
+      <name>limitedVisibilityContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hidden'</initValue>
+      <name>hiddenVisbilityTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employers cannot search for me. My profile can only be seen by employers as part of my application.'</initValue>
+      <name>hiddenVisibilityContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Choose a template for your profile'</initValue>
+      <name>chooseTemplateTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qa.tester@ubidy.com'</initValue>
+      <name>qaTesterEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E=A>g6QA'</initValue>
+      <name>qaTesterPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.100.205:30300/create-profile/2'</initValue>
+      <name>redirectToStep2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Clean'</initValue>
+      <name>cleanTemplate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Modern'</initValue>
+      <name>modernTemplate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bold'</initValue>
+      <name>boldTemplate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Corporate'</initValue>
+      <name>corporateTemplate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your profile visibility is currently set to Standard (Default).'</initValue>
+      <name>noteStandardDisplay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employers can view your profile and contact you directly or via Wan PNG.'</initValue>
+      <name>noteStandardDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your profile visibility is currently set to Limited.'</initValue>
+      <name>noteLimitedDisplay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employers can view your profile and contact you only via Wan PNG.'</initValue>
+      <name>noteLimitedDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your profile visibility is currently set to Hidden.'</initValue>
+      <name>noteHiddenDisplay</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Employers cannot search for you. Your profile can only be seen by employers as part of your application.'</initValue>
+      <name>noteHiddenDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Reset your password'</initValue>
+      <name>resetPasswordHeader</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Enter your registered email so we can send you a message on how to reset your password.'</initValue>
+      <name>resetPasswordSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Return to Log in'</initValue>
+      <name>returnToLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Download'</initValue>
+      <name>downloadText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>registeredEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Lower Primary (Grades 1-6)'</initValue>
+      <name>lowerPrimary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>FirstnameValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>LastnameValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>variable</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'My profile'</initValue>
+      <name>myProfile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Account settings'</initValue>
+      <name>accountSettings</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Log out'</initValue>
+      <name>logOut</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Date of birth'</initValue>
+      <name>dateOfBirth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sex'</initValue>
+      <name>sex</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Email Address'</initValue>
+      <name>emailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Change password'</initValue>
+      <name>changePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Current password'</initValue>
+      <name>currentPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'New password'</initValue>
+      <name>newPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Show'</initValue>
+      <name>show</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Change your name, location, and contact info in'</initValue>
+      <name>accountSettingsNotecCard</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Save changes'</initValue>
+      <name>saveChanges</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ubidy123'</initValue>
+      <name>newPasswordValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your correct current password.'</initValue>
+      <name>correctCurrentPasswordValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your current password.'</initValue>
+      <name>emptyCurrentPasswordValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter your new password.'</initValue>
+      <name>emptyNewPasswordValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a password different from your current one.'</initValue>
+      <name>sameNewPasswordValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Copy link'</initValue>
+      <name>copyLinkTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Use this link to share your profile.'</initValue>
+      <name>copyLinkSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.100.205:30300/jobs'</initValue>
+      <name>jobsPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Search jobs and companies hiring in Papua New Guinea!'</initValue>
+      <name>jobsPageHeadTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'No applied jobs yet'</initValue>
+      <name>NoAppliedJobs</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jobs you’ve applied for will show up here.'</initValue>
+      <name>NoAppliedJobsSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'No saved jobs yet'</initValue>
+      <name>NoSavedJobsTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jobs you’ve saved will show up here.'</initValue>
+      <name>NoSavedJobsSubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'No pending invitations yet'</initValue>
+      <name>NoInvitedToApply</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jobs you’ve been invited to apply for will show up here.'</initValue>
+      <name>NoInvitedToApplySubtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://uatjobseeker.wanpng.com/'</initValue>
+      <name>UAT</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

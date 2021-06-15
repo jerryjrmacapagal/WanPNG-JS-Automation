@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can proceed without gender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b29034ed-b0d7-4884-90d5-412a27c166df</testCaseGuid>
+</TestCaseEntity>

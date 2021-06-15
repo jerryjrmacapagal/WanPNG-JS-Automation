@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can search for jobs by Job title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76252c59-e269-4b0e-a637-5dd0292d5b4a</testCaseGuid>
+</TestCaseEntity>

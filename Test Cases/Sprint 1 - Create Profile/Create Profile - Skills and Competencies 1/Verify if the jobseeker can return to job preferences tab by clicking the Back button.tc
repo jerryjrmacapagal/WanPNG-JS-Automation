@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can return to job preferences tab by clicking the Back button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d71af783-1921-4fb2-b683-06ee0a727d1a</testCaseGuid>
+</TestCaseEntity>

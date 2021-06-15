@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can able to register an account successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bce1187d-8080-4f59-bb2b-eb0cc3db287c</testCaseGuid>
+</TestCaseEntity>

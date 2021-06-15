@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can proceed with checked or unchecked landowner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddafefc9-4a58-46cd-80aa-74dffbaaa8cc</testCaseGuid>
+</TestCaseEntity>

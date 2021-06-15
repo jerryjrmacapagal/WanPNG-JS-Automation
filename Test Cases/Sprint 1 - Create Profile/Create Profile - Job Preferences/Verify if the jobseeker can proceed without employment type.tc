@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can proceed without employment type</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>633e3f7d-8ad1-4539-a70a-38a23e681b05</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can able to save Profile information with empty data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e48857b8-45d3-4f58-80cc-1c70e391b089</testCaseGuid>
+</TestCaseEntity>

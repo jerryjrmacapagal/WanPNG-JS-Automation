@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can input multiple skills</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b925798c-608b-446c-8ca8-c419530c3d05</testCaseGuid>
+</TestCaseEntity>

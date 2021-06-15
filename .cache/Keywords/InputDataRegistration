@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "AF6AA0E869AB83DD0BCFA48FFCC04BC1",
+  "keywordClasses": [
+    {
+      "name": "InputDataRegistration",
+      "keywordMethods": [
+        {
+          "name": "register",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

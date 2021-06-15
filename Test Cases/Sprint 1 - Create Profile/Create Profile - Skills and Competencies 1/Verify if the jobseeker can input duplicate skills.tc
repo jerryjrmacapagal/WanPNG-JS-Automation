@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can input duplicate skills</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>378682b3-63aa-4463-b9ff-6b729ba288e1</testCaseGuid>
+</TestCaseEntity>

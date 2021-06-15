@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the selected job preferences would retain upon returning</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c65df3b4-8109-4af0-9751-473b97e0b41d</testCaseGuid>
+</TestCaseEntity>

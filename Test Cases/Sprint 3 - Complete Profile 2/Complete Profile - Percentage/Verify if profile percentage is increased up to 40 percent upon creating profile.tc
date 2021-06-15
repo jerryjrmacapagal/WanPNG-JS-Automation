@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if profile percentage is increased up to 40 percent upon creating profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61705bce-c28b-4529-8349-f315be7c29fa</testCaseGuid>
+</TestCaseEntity>

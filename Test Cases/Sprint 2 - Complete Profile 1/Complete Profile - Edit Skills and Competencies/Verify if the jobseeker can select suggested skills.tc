@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can select suggested skills</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0f12df7-0a02-44d8-9935-0f95938909e5</testCaseGuid>
+</TestCaseEntity>

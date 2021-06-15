@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Job Seeker can able to add Training background</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e378d69c-93fa-487b-b5ee-b3bfd9fb2a40</testCaseGuid>
+</TestCaseEntity>

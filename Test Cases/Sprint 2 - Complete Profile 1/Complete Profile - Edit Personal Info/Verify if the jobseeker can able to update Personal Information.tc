@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can able to update Personal Information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1b4b4e7-7745-4d98-b54a-35a564b46b97</testCaseGuid>
+</TestCaseEntity>

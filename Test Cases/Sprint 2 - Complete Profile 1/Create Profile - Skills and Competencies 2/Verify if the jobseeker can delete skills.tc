@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can delete skills</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56db7571-71a6-4a97-a745-e698358e452e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>The text fields should be enabled after lessening the maximum skills inputted</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2d9b957-f7d7-46e1-a081-d14765368eb1</testCaseGuid>
+</TestCaseEntity>

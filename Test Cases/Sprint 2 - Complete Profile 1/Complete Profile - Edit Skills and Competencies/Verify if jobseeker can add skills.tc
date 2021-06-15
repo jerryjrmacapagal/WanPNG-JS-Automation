@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if jobseeker can add skills</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e2ba5cc-3867-455d-a466-95cceec3b85c</testCaseGuid>
+</TestCaseEntity>

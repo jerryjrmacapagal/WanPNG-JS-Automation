@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Jobseeker can proceed without last name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11064935-eb19-4835-96bd-e9198f961634</testCaseGuid>
+</TestCaseEntity>

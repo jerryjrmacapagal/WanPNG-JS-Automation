@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Job Seeker can able to update education background</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcda0825-9d9c-4ffb-9162-746bd380cffe</testCaseGuid>
+</TestCaseEntity>

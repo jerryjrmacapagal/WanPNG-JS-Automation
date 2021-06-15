@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Jobseeker can able to add work experience without Job Title</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4ea9f48-a172-4a81-aa8d-799262bad8c4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can add skills without skill level</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e78a5de6-c804-4543-8341-d9f5e9ffde2a</testCaseGuid>
+</TestCaseEntity>

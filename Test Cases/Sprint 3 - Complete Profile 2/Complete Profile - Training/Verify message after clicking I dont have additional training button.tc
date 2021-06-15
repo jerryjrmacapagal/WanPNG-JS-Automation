@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify message after clicking I dont have additional training button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0b163cac-52f5-436b-b0ac-7da7104a4047</testCaseGuid>
+</TestCaseEntity>

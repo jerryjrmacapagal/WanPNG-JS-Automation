@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Modern Education Section</name>
+   <tag></tag>
+   <elementGuidId>f172226f-a085-47d3-9a1b-a9cf9f3f94cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/section/section/div/div/div[2]/div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modernProfileContainer-0-2-60</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EducationAngeles University FoundationBachelor's, Computer EngineeringJune 2014 - April 2018Cras posuere arcu eget iaculis rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent scelerisque libero enim, a pulvinar diam imperdiet quis. Aliquam a varius sapien, a varius velit. Sed nec risus sed tortor euismod pulvinar vel eget eros. Donec ac mauris ultrices, finibus turpis non, venenatis nunc. Vestibulum placerat tristique orci in luctus. Suspendisse potenti. Aenean commodo risus velit, sed pharetra justo mollis vel. In gravida, libero sed consequat eleifend, ex ligula interdum odio, in congue sapien turpis et velit. Pellentesque eget orci in enim luctus tincidunt quis eget velit. Integer non turpis risus. In varius scelerisque lacus, non consequat quam placerat eget. In vel nibh sit amet magna iaculis dictum.Holy Angel UniversitySecondary, High School EducationJune 2010 - May 2014Praesent dui ex, molestie eu scelerisque eget, porttitor sed nisi. Aliquam blandit nulla nec ipsum pretium, porta hendrerit justo ornare. Ut malesuada sem vitae libero dapibus, vitae tincidunt nisl venenatis. Sed vel justo vel ex varius suscipit sit amet in mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam est nisi, laoreet sed scelerisque eget, suscipit id nisl. Nam nisi risus, sollicitudin at sollicitudin posuere, commodo vel turpis. Curabitur rutrum, quam ut accumsan vestibulum, nisi urna egestas nibh, vel volutpat ex orci at felis.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/main/section/section/div/div/div[2]/div[4]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/section/section/div/div/div[2]/div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='July 2010 - March 2015 • 4 years 9 months'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mabalacat City'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/main/section/section/div/div/div[2]/div[4]</value>
+   </webElementXpaths>
+</WebElementEntity>

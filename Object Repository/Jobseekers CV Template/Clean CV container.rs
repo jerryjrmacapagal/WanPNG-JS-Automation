@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Clean CV container</name>
+   <tag></tag>
+   <elementGuidId>7b5ad958-8ce4-4969-a88e-92a802fc6bae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.cleanColumnsContainer-0-2-70</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/section/section/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cleanColumnsContainer-0-2-70</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Skills and competenciesAdvanced skillsTestRailKatalon StudioJMeterReact JSProgrammingIntermediate SkillsAutomation TestingAzure DevOpsRobot FrameworkJiraGithubC#MochaBasic skillsGoogle DocsJavaTestProjectMicrosoft Office SuiteC++JavaScriptJob preferencesFreelance, Part Time, ContractExecutiveAvailable ImmediatelyJerry, Jr.  MacapagalDatabase ManagementEastern Highlands, Adumo Cityjerry.macapagal+00@ubidy.com+675 954 7844APPL 353SummaryLorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices augue accumsan nibh dictum facilisis. Phasellus est mauris, pretium at ullamcorper sit amet, condimentum ut sem. Fusce mollis felis est, blandit porta velit commodo id. Duis malesuada lectus eu eleifend fermentum. Nullam consectetur tempus ligula, sit amet efficitur felis auctor sit amet. Quisque consequat, ligula at porta dapibus, nisi lectus accumsan odio, sed sagittis mi ligula sed eros. Etiam vel nibh justo.Work experienceDatabase ManagementWan PNGClark Freeport ZoneApril 2020 - Present •  6 months Nunc sagittis enim a lobortis egestas. Aliquam ultrices erat neque, nec ornare sapien euismod eu. Morbi interdum quam ac condimentum faucibus. Fusce consectetur sed nisl ut rhoncus. Morbi eleifend fermentum nunc, sed dignissim quam tincidunt eu. Vestibulum vitae feugiat velit, non fringilla nisi. In odio tortor, pellentesque eu lacus ut, ultricies venenatis neque. Sed vestibulum metus eget felis efficitur euismod. Nullam tincidunt turpis diam, quis auctor lectus interdum at.Front-End DeveloperUbidyClark Freeport ZoneMarch 2016 - April 2020 • 4 years 2 months Cras dictum sollicitudin sapien, dictum tristique turpis interdum non. Integer rutrum, metus sed aliquet rhoncus, ipsum diam facilisis metus, quis ullamcorper orci sapien sed urna. Nunc sit amet finibus diam. Curabitur molestie felis nibh, ut mattis nunc sollicitudin vel. Proin gravida tempor dui, eu ultrices risus tincidunt ut. Fusce feugiat semper turpis quis hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras a malesuada metus, sed mattis lacus. Praesent sit amet eleifend magna, ut sodales nibh. Sed volutpat id mauris ac lobortis. Aliquam dictum, lorem eu cursus luctus, nulla urna aliquam metus, quis laoreet lectus ex a sem. Curabitur non fermentum justo, eu ullamcorper arcu. Nunc quis eleifend libero, et maximus eros.Back-End DeveloperGold CorporationMabalacat CityJuly 2010 - March 2015 • 4 years 9 months Maecenas ac suscipit mi. Etiam ut porta tortor. Suspendisse suscipit eu arcu nec dictum. Vivamus rhoncus dolor id mattis iaculis. Praesent rutrum est vitae venenatis suscipit. Donec ac metus quis ipsum vulputate volutpat. Curabitur ut magna aliquet est tempor pulvinar.EducationAngeles University FoundationBachelor's, Computer EngineeringJune 2014 - April 2018Cras posuere arcu eget iaculis rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent scelerisque libero enim, a pulvinar diam imperdiet quis. Aliquam a varius sapien, a varius velit. Sed nec risus sed tortor euismod pulvinar vel eget eros. Donec ac mauris ultrices, finibus turpis non, venenatis nunc. Vestibulum placerat tristique orci in luctus. Suspendisse potenti. Aenean commodo risus velit, sed pharetra justo mollis vel. In gravida, libero sed consequat eleifend, ex ligula interdum odio, in congue sapien turpis et velit. Pellentesque eget orci in enim luctus tincidunt quis eget velit. Integer non turpis risus. In varius scelerisque lacus, non consequat quam placerat eget. In vel nibh sit amet magna iaculis dictum.Holy Angel UniversitySecondary, High School EducationJune 2010 - May 2014Praesent dui ex, molestie eu scelerisque eget, porttitor sed nisi. Aliquam blandit nulla nec ipsum pretium, porta hendrerit justo ornare. Ut malesuada sem vitae libero dapibus, vitae tincidunt nisl venenatis. Sed vel justo vel ex varius suscipit sit amet in mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam est nisi, laoreet sed scelerisque eget, suscipit id nisl. Nam nisi risus, sollicitudin at sollicitudin posuere, commodo vel turpis. Curabitur rutrum, quam ut accumsan vestibulum, nisi urna egestas nibh, vel volutpat ex orci at felis.TrainingCloudstaff PhilippinesSoftware Quality AssuranceMay 2018 - May 2018Fusce porttitor semper fermentum. Suspendisse volutpat luctus erat, a fermentum eros rutrum eget. Nam nisi orci, feugiat id dolor a, malesuada gravida erat. Vivamus sem sapien, semper id arcu id, laoreet mollis arcu. Morbi hendrerit turpis id ante bibendum, sed tempor odio consequat. Aliquam a lectus sed leo mattis luctus. Suspendisse volutpat tortor tellus, sit amet aliquet odio pulvinar non. Nulla volutpat fermentum laoreet. Mauris sed nunc ultricies, tempus arcu sit amet, ornare odio. Morbi egestas odio at ligula efficitur iaculis. Nam imperdiet diam et mi cursus elementum. Sed eget bibendum lacus.Angeles University FoudationWebinar Automation Best PracticesMarch 2018 - March 2018Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices augue accumsan nibh dictum facilisis. Phasellus est mauris, pretium at ullamcorper sit amet, condimentum ut sem. Fusce mollis felis est, blandit porta velit commodo id. Duis malesuada lectus eu eleifend fermentum. Nullam consectetur tempus ligula, sit amet efficitur felis auctor sit amet. Quisque consequat, ligula at porta dapibus, nisi lectus accumsan odio, sed sagittis mi ligula sed eros. Etiam vel nibh justo.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;root&quot;]/main/section/section/div/div</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/section/section/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bold'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/section/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>
