@@ -22,15 +22,40 @@ WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], ST
 
 WebUI.callTestCase(findTestCase("Call Testcase/Add summary"), [:], STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Add Summary/Save button'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Save button'))
+
 WebUI.scrollToElement(findTestObject('Object Repository/Jobseekers My Profile OR/Work experience section'), 5)
 
 WebUI.callTestCase(findTestCase("Call Testcase/Add work experience"), [:], STOP_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/Save button'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Save button'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Jobseekers My Profile OR/Education section'), 5)
 
 WebUI.callTestCase(findTestCase("Call Testcase/Add education"), [:], STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Add Education/Save button'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Education/Save button'))
+
 WebUI.scrollToElement(findTestObject('Object Repository/Jobseekers My Profile OR/Training section'), 5)
 
 WebUI.callTestCase(findTestCase("Call Testcase/Add Training"), [:], STOP_ON_FAILURE)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Add Training/button Save'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Training/button Save'))
+
+WebUI.callTestCase(findTestCase("Call Testcase/Add affiliations"), [:])
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseeker Add Affiliation/Save button'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseeker Add Affiliation/Save button'))
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
