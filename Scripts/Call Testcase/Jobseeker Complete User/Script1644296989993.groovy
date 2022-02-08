@@ -34,4 +34,3 @@ WebUI.scrollToElement(findTestObject('Object Repository/Jobseekers My Profile OR
 
 WebUI.callTestCase(findTestCase("Call Testcase/Add Training"), [:], STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
