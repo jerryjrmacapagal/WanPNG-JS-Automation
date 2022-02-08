@@ -29,7 +29,7 @@ WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseeker Ac
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Sex'), GlobalVariable.sex)
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Input Sex'), "title", "Female", 5)
+//WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Input Sex'), "title", "Male", 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Email address'), "Email address")
 

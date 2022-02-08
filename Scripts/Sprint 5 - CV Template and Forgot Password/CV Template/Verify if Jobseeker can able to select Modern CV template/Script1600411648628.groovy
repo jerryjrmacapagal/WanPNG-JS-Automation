@@ -36,9 +36,9 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Templ
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Work experience Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Education Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Education Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Training Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Training Section'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Skills and Competencies Section'))
 
@@ -51,10 +51,10 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Templ
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Work experience Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Education Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Education Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Training Section'))
-
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Training Section'))
+//
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Skills and Competencies Section'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Modern Job preferences Section'))

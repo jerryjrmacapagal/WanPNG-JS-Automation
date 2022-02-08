@@ -18,14 +18,17 @@ import org.openqa.selenium.Keys as Keys
 
 //Call Login TC
 WebUI.callTestCase(findTestCase('Call Testcase/Jobseeker Register'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Call Testcase/Login Create Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 //Call Input data TC
 WebUI.callTestCase(findTestCase('Call Testcase/Input data personal information'),[:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences Back button'))
 
 //Clear firstname
 WebUI.doubleClick(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal info Next button'))
 

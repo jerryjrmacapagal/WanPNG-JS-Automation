@@ -6,6 +6,10 @@
    <elementGuidId>0e076540-7454-48cc-b0a5-63d4a124a5f0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please enter your city or town.' or . = 'Please enter your city or town.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/div/form/div[6]/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>City or village is required</value>
+      <value>Please enter your city or town.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

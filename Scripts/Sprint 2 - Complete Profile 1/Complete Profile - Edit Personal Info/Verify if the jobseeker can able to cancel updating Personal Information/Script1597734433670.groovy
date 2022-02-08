@@ -19,7 +19,8 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 def newfirstname = RandomStringUtils.randomAlphabetic(5)
 
 //Call login
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Edit personal info button'))

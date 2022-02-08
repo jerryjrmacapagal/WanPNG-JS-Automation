@@ -70,9 +70,9 @@ WebUI.click(findTestObject('Object Repository/Jobseekers Add Education/Ended Yea
 
 WebUI.setText(findTestObject('Object Repository/Jobseekers Add Education/Ended Year'), GlobalVariable.endedYearValue2)
 
-//String[] description = findTestData("EducationDescriptions").getAllData()
-//
-//int randomDescription = new Random().nextInt(description.length + 1)
-//
-//WebUI.setText(findTestObject('Object Repository/Jobseekers Add Education/Description textarea'), findTestData("EducationDescriptions").getValue("Descriptions", randomDescription))
+String[] description = findTestData("EducationDescriptions").getAllData()
+
+int randomDescription = new Random().nextInt(description.length + 1)
+
+WebUI.setText(findTestObject('Object Repository/Jobseekers Add Education/Description textarea'), findTestData("EducationDescriptions").getValue("Descriptions", randomDescription))
 

@@ -16,7 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //Redirect to my profile
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.callTestCase(findTestCase("Call Testcase/Add work experience"), [:], FailureHandling.STOP_ON_FAILURE)
@@ -35,9 +36,9 @@ WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Del
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/Delete work experience title'), 5)
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Delete work experience title'), GlobalVariable.deleteWorkExpModalTitle)
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Delete work experience title'), GlobalVariable.deleteWorkExpModalTitle)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Delete work experience subtitle'), GlobalVariable.deleteWorkExpSubtitle + ' ' + GlobalVariable.trainingTitleValue + ' at ' + GlobalVariable.companyName + '?')
+//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Delete work experience subtitle'), GlobalVariable.deleteWorkExpSubtitle + ' ' + GlobalVariable.trainingTitleValue + ' at ' + GlobalVariable.companyName + '.')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers Add Work Experience/Delete button_Cancel'))
 
@@ -61,6 +62,6 @@ WebUI.waitForElementNotPresent(findTestObject('Object Repository/Jobseekers Add 
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/h2_Mechanical Engineering'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/Edit button'), 5)
+//WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/Edit button'), 5)
 
 WebUI.closeBrowser()

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;profile-section&quot;]/div[@class=&quot;ant-row ant-row-center&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-24 ant-col-lg-17&quot;]/div[@class=&quot;personal-information-container profile-item&quot;]/div[@class=&quot;personal-information-form-container&quot;]/div[@class=&quot;edit-personal-information-content&quot;]/form[@class=&quot;ant-form ant-form-vertical ant-form-hide-required-mark&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-form-item-control&quot;]/div[@class=&quot;ant-form-item-control-input&quot;]/div[@class=&quot;ant-form-item-control-input-content&quot;]/div[@class=&quot;edit-personal-information-buttons&quot;]/button[@class=&quot;ant-btn cancel-button  _button -outline&quot;][count(. | //*[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')]) = count(//*[@type = 'button' and (text() = 'Cancel' or . = 'Cancel')])]</value>
+         <value>//*[@type = 'button' and @class = 'ant-btn cancel-button  _button -outline' and (text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>Cancel</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

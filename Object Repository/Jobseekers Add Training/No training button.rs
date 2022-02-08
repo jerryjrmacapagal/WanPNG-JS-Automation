@@ -6,12 +6,12 @@
    <elementGuidId>80ce0be3-364e-4f83-906d-be242c7f4d47</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[6]</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'ant-btn empty-state-button _button -outline' and (text() = 'I don’t have additional training' or . = 'I don’t have additional training')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button//span[text()=&quot;I don’t have additional training&quot;]</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,21 +31,21 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ant-btn empty-state-button _button -outline</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>I don’t have additional training</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

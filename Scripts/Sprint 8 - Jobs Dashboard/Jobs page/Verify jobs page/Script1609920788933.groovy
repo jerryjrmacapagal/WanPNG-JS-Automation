@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to Jobs Page"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/JS Register and redirect to jobs page"), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Jobs page header title'), 10)
 
@@ -33,7 +33,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Applie
 
 WebUI. delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Applied jobs section'), 5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/No applied jobs section'), 5)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/No applied jobs icon'), 5)
 

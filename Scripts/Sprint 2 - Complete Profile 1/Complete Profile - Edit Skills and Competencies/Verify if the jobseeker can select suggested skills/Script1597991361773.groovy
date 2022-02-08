@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //Redirect to my profile
 WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //SCENARIO 1 - Verify if the auto-suggestion dropdown would display upon searching for an existing skill
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Edit skills and competencies button'), 5)
@@ -36,13 +37,13 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Skills 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Dropdown container suggestion'))
 
 //SCENARIO 2 - Verify if the jobseeker can select suggested skills
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill suggestion'))
+WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Dropdown container suggestion'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Select level of experties'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/My Profile Add button'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/span_Mechanical Engineering'), 5)
 

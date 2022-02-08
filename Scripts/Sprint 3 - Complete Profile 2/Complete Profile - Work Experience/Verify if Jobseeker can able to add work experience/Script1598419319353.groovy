@@ -17,26 +17,26 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Redirect to my profile
-//WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //SCENARIO 1: Verify if Jobseeker can able to cancel adding a work experience using "Cancel" button
 WebUI.callTestCase(findTestCase("Call Testcase/Add work experience"), [:], FailureHandling.STOP_ON_FAILURE)
 //
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Cancel button'))
-//
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Education/Discard changes modal'), 5)
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard changes title'), GlobalVariable.discardChangesTitle)
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard changes subtitle'), GlobalVariable.discardChangesSubtitle)
-//
-//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers Add Education/Discard close icon'))
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard cancel text'), GlobalVariable.cancelButton)
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Cancel button'))
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard text'), GlobalVariable.discardButtonText)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Education/Discard changes modal'), 5)
 
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Education/Discard cancel button'))
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard changes title'), GlobalVariable.discardChangesTitle)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard changes subtitle'), GlobalVariable.discardChangesSubtitle)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers Add Education/Discard close icon'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard cancel text'), GlobalVariable.cancelButton)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Education/Discard text'), GlobalVariable.discardButtonText)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Education/Discard cancel button'))
 
 //SCENARIO 2: Verify if Jobseeker can able to add a work experience using "Save" button
 
@@ -103,4 +103,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Add Work
 //
 //WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/p_Buka'), findTestData("Cities").getValue("Cities", randomLocation))
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

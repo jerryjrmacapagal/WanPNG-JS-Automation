@@ -27,4 +27,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Copy link OR/Copy l
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Copy link OR/input_Use this link to share your profile._copy'))
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

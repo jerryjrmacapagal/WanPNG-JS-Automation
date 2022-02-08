@@ -6,6 +6,10 @@
    <elementGuidId>5aad0804-34dc-4446-8f3b-2de5d92e995c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please enter your last name.' or . = 'Please enter your last name.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/div/form/div[2]/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Last name is required</value>
+      <value>Please enter your last name.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

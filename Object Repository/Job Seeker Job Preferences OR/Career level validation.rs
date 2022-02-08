@@ -6,6 +6,10 @@
    <elementGuidId>dad24232-ab6f-4640-88b0-2291cb2cbf79</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please select a career level.' or . = 'Please select a career level.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/form/div/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Career level is required</value>
+      <value>Please select a career level.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

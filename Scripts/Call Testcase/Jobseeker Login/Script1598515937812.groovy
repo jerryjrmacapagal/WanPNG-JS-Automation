@@ -16,11 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys
 
-WebUI.openBrowser(GlobalVariable.localhost)
+WebUI.openBrowser(GlobalVariable.Dev)
 
 WebUI.maximizeWindow()
 
-//WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Email address textbox'), GlobalVariable.registeredEmail1)
+WebUI.delay(3)
+
+//WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Email address textbox'), "qa.tester+gesupo4010@ubidy.com")
 
 //Dev envi
 //WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Email address textbox'), "qa.tester+kompamp-meta660@ubidy.com")

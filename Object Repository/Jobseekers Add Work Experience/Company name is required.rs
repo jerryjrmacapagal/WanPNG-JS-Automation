@@ -6,6 +6,10 @@
    <elementGuidId>d6212ece-33d7-4e9e-845c-7e6e89a754fb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@role = 'alert' and (text() = 'Please enter a company name.' or . = 'Please enter a company name.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/section/div/div/div[3]/div/div/form/div[2]/div/div/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Company name is required</value>
+      <value>Please enter a company name.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

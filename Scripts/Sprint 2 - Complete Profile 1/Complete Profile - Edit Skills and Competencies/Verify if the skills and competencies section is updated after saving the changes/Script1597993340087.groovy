@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/My Profile Add button'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Save button'))
 

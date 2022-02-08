@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "7544D145492E3B12443A5A9D78257337",
+  "keywordFileContentHash": "B4591F04F0FBC907CCCACAD4CFAD02EE",
   "keywordClasses": [
     {
       "name": "Login",
@@ -16,6 +16,11 @@
         },
         {
           "name": "InputdataLogin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "MessengerEmptyState",
           "parameters": [],
           "javadoc": ""
         }

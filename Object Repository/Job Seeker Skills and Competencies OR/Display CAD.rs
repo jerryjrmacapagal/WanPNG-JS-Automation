@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'skills-and-competencies-index-basic-color' and (text() = 'CAD' or . = 'CAD')]</value>
+         <value>//span[@class = 'skill-tag -basic-color' and (text() = 'CAD' or . = 'CAD')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>skills-and-competencies-index-basic-color</value>
+      <value>skill-tag -basic-color</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

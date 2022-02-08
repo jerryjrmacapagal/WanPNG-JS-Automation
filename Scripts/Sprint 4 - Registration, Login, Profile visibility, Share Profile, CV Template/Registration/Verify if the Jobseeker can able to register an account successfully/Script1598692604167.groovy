@@ -21,6 +21,10 @@ CustomKeywords.'InputDataRegistration.register'()
 
 WebUI.click(findTestObject('Object Repository/Jobseeker Register/Join now button'))
 
+WebUI.delay(5)
+
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Create Profile Header/Create profile header'), 5)
 
-//WebUI.closeBrowser()
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseeker Register/Join now button'), 5)
+
+WebUI.closeBrowser()

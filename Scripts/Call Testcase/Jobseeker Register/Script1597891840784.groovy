@@ -18,15 +18,15 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 CustomKeywords.'Login.GotoWanPNGpage'()
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Log in to Jobseeker/register link'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseeker Register/Register button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Page_Log in to Jobseeker/register link'))
+WebUI.click(findTestObject('Object Repository/Jobseeker Register/Register button'))
 
 String[] firstnames = findTestData("Firstnames").getAllData()
 
 int randomFirstNames = new Random().nextInt(firstnames.length + 1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input firstName'), findTestData('Firstnames').getValue('First Names', randomFirstNames))
+WebUI.setText(findTestObject('Object Repository/Jobseeker Register/First name textbox'), findTestData('Firstnames').getValue('First Names', randomFirstNames))
 
 GlobalVariable.FirstnameValue = findTestData('Firstnames').getValue('First Names', randomFirstNames)
 
@@ -34,15 +34,15 @@ String[] lastnames = findTestData("Lastnames").getAllData()
 
 int randomLastNames = new Random().nextInt(lastnames.length + 1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input lastName'), findTestData('Lastnames').getValue('Surnames', randomLastNames))
+WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Last name textbox'), findTestData('Lastnames').getValue('Surnames', randomLastNames))
 
-def emailAddress = (GlobalVariable.kcEmailAddress + GlobalVariable.FirstnameValue + RandomStringUtils.randomNumeric(3)) + GlobalVariable.kcDomain
+def emailAddress = (GlobalVariable.kcEmailAddress + GlobalVariable.FirstnameValue + RandomStringUtils.randomNumeric(4)) + GlobalVariable.kcDomain
 
 //def emailAddress = (GlobalVariable.kcEmailAddress + GlobalVariable.FirstnameValue + GlobalVariable.LastnameValue + GlobalVariable.kcDomain)
 
-WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input email'), emailAddress)
+WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Email address textbox'), emailAddress)
 
-WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input password'), GlobalVariable.kcPassword)
+WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Password textbox'), GlobalVariable.kcPassword)
 
 GlobalVariable.registeredEmail1 = emailAddress
 

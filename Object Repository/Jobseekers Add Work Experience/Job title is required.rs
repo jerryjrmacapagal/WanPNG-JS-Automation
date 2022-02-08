@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/section/div/div/div[3]/div/div/form/div/div[2]/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@role = 'alert' and (text() = 'Please enter a job title.' or . = 'Please enter a job title.')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Job title is required</value>
+      <value>Please enter a job title.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

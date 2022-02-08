@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='availabilityId']/parent::span/parent::div[@class='ant-select-selector']//following-sibling::span[@class=''ant-select-clear']</value>
+         <value>//span[@class=&quot;ant-select-clear&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='availabilityId']/parent::span/parent::div[@class='ant-select-selector']//following-sibling::span[@class='ant-select-clear']</value>
+      <value>//span[@class=&quot;ant-select-clear&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

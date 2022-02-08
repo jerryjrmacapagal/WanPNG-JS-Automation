@@ -6,12 +6,12 @@
    <elementGuidId>0a637196-18c5-4c1d-893e-1e2447ac430d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'ant-btn add-photo-button _button -outline' and (text() = ' Upload photo' or . = ' Upload photo')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'button' and @class = 'ant-btn add-photo-button _button -outline' and (text() = ' Add Photo' or . = ' Add Photo')]</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Add Photo</value>
+      <value> Upload photo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

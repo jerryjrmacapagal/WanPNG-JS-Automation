@@ -6,6 +6,10 @@
    <elementGuidId>de971798-a4ca-4876-8b45-38d3ecbd727d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class='ant-select search-job-provinces ant-select-single ant-select-show-arrow']//div</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/section/div/div/span[3]/span/div/div</value>
       </entry>
@@ -24,25 +28,25 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>ant-select-selector</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>All provinces</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/section[@class=&quot;job-search-header-section&quot;]/div[@class=&quot;job-search-header-container&quot;]/div[@class=&quot;form-container&quot;]/span[@class=&quot;select-button-container&quot;]/span[@class=&quot;search-form-item-container&quot;]/div[@class=&quot;ant-select search-job-provinces ant-select-single ant-select-show-arrow&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <value>//div[@class='ant-select search-job-provinces ant-select-single ant-select-show-arrow']//div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

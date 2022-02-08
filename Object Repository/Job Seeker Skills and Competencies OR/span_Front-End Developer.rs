@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'skills-and-competencies-index-intermediate-color' and (text() = 'Front-End Developer' or . = 'Front-End Developer')]</value>
+         <value>//*[@class = 'skill-tag -intermediate-color']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,10 +28,10 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>skills-and-competencies-index-intermediate-color</value>
+      <value>skill-tag -intermediate-color</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

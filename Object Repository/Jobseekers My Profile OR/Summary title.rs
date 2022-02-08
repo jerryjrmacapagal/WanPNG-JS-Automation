@@ -9,22 +9,26 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/section/div/div/div[2]/div/h2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[@class = 'summary-title _profile-text _text-bold' and (text() = 'Summary' or . = 'Summary')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>summary-title _text-bold</value>
+      <value>summary-title _profile-text _text-bold</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

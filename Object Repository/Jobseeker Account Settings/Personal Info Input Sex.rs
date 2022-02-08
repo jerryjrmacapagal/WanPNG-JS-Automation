@@ -6,12 +6,16 @@
    <elementGuidId>24870b7d-9077-45c1-a482-dab6c6436ac8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/main/section/div/form/div/div[2]/div/div[2]/div/div/div/div/span[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.ant-select-selection-item</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Male' and (text() = 'Male' or . = 'Male')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/section/div/form/div/div[2]/div/div[2]/div/div/div/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,14 +39,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Female</value>
+      <value>Male</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Female</value>
+      <value>Male</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

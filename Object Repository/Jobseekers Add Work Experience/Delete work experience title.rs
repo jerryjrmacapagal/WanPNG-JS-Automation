@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class = 'confirm-message-header' and (text() = 'Delete this work experience?' or . = 'Delete this work experience?')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Delete this work experience</value>
+      <value>Delete this work experience?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

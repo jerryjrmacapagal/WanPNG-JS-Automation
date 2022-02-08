@@ -6,12 +6,12 @@
    <elementGuidId>5e0f06fd-13c2-4b32-8489-1603555e076c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/main/section/div/div/div[4]/div/div/div[2]/div/h2</value>
+         <key>BASIC</key>
+         <value>//span[@class = 'card-title _text-bold']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//h2[@class = 'education-png-label _text-bold']</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/section/div/div/div[4]/div/div/div[2]/div/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,14 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>education-png-label _text-bold</value>
+      <value>card-title _text-bold</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

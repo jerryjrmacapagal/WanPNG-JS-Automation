@@ -6,12 +6,12 @@
    <elementGuidId>ee95aa9f-14c6-4a14-846b-a0352a8b0736</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <key>BASIC</key>
+         <value>//span[text()='Security']//button[@class='ant-btn ant-btn-link remove-button']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//span[text()='Security']//button[@class='ant-btn ant-btn-link skills-and-competencies-remove-button']</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,21 +35,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn skills-and-competencies-remove-button ant-btn-link</value>
+      <value>ant-btn ant-btn-link remove-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>✖</value>
+      <value>Security</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[text()='Security']//button[@class='ant-btn ant-btn-link skills-and-competencies-remove-button']</value>
+      <value>//span[text()='Security']//button[@class='ant-btn ant-btn-link remove-button']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

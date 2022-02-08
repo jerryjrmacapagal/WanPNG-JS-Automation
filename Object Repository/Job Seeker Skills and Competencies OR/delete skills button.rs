@@ -6,12 +6,12 @@
    <elementGuidId>18bd46ae-f021-4cb0-9b5a-498b514e8d84</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class=&quot;skills-and-competencies-advanced-color&quot;]//button[@class=&quot;ant-btn ant-btn-link skills-and-competencies-remove-button&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[11]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class=&quot;skill-tag -advanced-color&quot;]//button[@class=&quot;ant-btn ant-btn-link remove-button&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[@class=&quot;skills-and-competencies-advanced-color&quot;]//button[@class=&quot;ant-btn ant-btn-link skills-and-competencies-remove-button&quot;]</value>
+      <value>//span[@class=&quot;skill-tag -advanced-color&quot;]//button[@class=&quot;ant-btn ant-btn-link remove-button&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

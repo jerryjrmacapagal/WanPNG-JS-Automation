@@ -6,18 +6,22 @@
    <elementGuidId>92a365a0-0b6d-4c00-aafd-fea27969791d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//textarea[@id = 'summary']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//textarea[@id='summary']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;summary&quot;)[count(. | //*[@id = 'summary']) = count(//*[@id = 'summary'])]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,11 +42,11 @@
       <value>summary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;summary&quot;)</value>
+      <value>//div[@class=&quot;ql-editor ql-blank&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

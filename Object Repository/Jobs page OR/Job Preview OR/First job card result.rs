@@ -6,12 +6,16 @@
    <elementGuidId>5c46ba6d-3716-46d5-8e56-217a0c5cda95</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/main/section/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.job-posting-buttons-container</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/div[1]/ul[1]/a/div[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/section/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/div[1]/ul[1]/a/div</value>
+      <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/div[1]/ul[1]/a/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

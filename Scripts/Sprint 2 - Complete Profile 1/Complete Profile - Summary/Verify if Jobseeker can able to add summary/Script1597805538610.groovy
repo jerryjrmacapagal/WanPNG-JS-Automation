@@ -16,43 +16,44 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //Redirect to my profile
+WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Execute testcase
 
 //SCENARIO 1 - Verify if Job Seeker can able to cancel adding a summary using 'Cancel' Button
-//WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Add Summary button'))
-//
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), 5)
+WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Add Summary button'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), 5)
 //
 String[] summary = findTestData('Geochemist Summary').getAllData()
 
 int randomSummary = new Random().nextInt(summary.length + 1)
 //
-//WebUI.setText(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), findTestData("Senior Software Engineer Summary").getValue("Software Engineer Summary", randomSummary))
-//
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Cancel button'))
-//
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Discard Changes Discard button'))
-//
-//WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), 5)
-//
-//WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Summary/Add summary title'), 5)
+WebUI.setText(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), findTestData("Senior Software Engineer Summary").getValue("Software Engineer Summary", randomSummary))
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Cancel button'))
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Discard Changes Discard button'))
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), 5)
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Summary/Add summary title'), 5)
 
 //SCENARIO 2 - Verify if Job Seeker can able to add summary with more than 500 characters
-//WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Add Summary button'))
-//
-//WebUI.setText(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), GlobalVariable.summaryLimit)
-//
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Save button'))
-//
-//WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Summary/Summary validation message'), 5)
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Summary/Summary validation message'), GlobalVariable.summaryValidationMessage)
-//
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Cancel button'))
-//
-//WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Discard Changes Discard button'))
+WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Add Summary button'))
+
+WebUI.setText(findTestObject('Object Repository/Jobseekers Add Summary/Summary Textbox'), GlobalVariable.summaryLimit)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Save button'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Summary/Summary validation message'), 5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Summary/Summary validation message'), GlobalVariable.summaryValidationMessage)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Cancel button'))
+
+WebUI.click(findTestObject('Object Repository/Jobseekers Add Summary/Discard Changes Discard button'))
 
 //SCENARIO 3 - Verify if Job Seeker can able to add a summary with 500 characters using 'Save' Button
 WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Add Summary button'))
@@ -65,4 +66,4 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Sum
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Summary/Summary content'), findTestData("Geochemist Summary").getValue("Summary", randomSummary))
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

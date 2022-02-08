@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/div/form/div[4]/div[2]/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please enter your mobile number.' or . = 'Please enter your mobile number.')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mobile number is required</value>
+      <value>Please enter your mobile number.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

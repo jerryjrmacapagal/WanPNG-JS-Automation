@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//a[@id='zocial-google']/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class = '_provider-icon' and @alt = 'Google']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>

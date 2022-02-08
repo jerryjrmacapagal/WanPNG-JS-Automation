@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@role = 'alert' and (text() = 'Skill or competency is required' or . = 'Skill or competency is required')]</value>
+         <value>//*[@role = 'alert' and (text() = 'Please enter a skill or competency.' or . = 'Please enter a skill or competency.')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Skill or competency is required</value>
+      <value>Please enter a skill or competency.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

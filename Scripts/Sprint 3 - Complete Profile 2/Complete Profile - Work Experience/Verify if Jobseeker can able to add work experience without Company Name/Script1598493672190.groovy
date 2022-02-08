@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase("Call Testcase/Add work experience"), [:], Failu
 
 WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Add Work Experience/Company name textbox'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Add Work Experience/Company name textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Add Work Experience/Company name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Save button'))
 

@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //Redirect to my profile
 WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Edit job preferences button'))
@@ -39,7 +40,7 @@ WebUI.click(findTestObject('Object Repository/Edit Job Preferences/Cancel button
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Job preferences section'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Edit Job Preferences/Save button'), 5)
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/Edit Job Preferences/Save button'))
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Edit Job Preferences/Display Freelance'), 5)
 

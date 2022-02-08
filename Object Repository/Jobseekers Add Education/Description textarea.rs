@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//textarea[@id='description']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;education&quot;]//div[@class=&quot;ql-editor ql-blank&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,18 @@
       <value>ant-input education-form-description-text-area</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>description</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;description&quot;)</value>
+      <value>//div[@id=&quot;education&quot;]//div[@class=&quot;ql-editor ql-blank&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

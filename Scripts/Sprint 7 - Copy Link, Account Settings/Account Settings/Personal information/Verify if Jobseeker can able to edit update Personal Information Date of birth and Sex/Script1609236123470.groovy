@@ -43,18 +43,18 @@ WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/Save ch
 //SCENARIO 2: Verify if Jobseeker can able to edit Sex
 WebUI.waitForElementVisible(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Input Sex'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Input Sex'))
+WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/Sex dropdown'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseeker Account Settings/div_Male'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseeker Account Settings/div_Female'), 5)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/div_Male'))
+WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/div_Female'))
 
 WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/Save changes button'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Jobseeker Account Settings/Save changes notif card'), 5)
-
+//
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseeker Account Settings/Save changes notif card message'), 'Your personal information has been updated.')
 
 WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/Save changes notif card close icon'))
@@ -72,6 +72,12 @@ WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/div_13'
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseeker Account Settings/Personal Info Input Date of birth'), 'value', '13 Aug 1989', 5)
 
+WebUI.click (findTestObject('Object Repository/Jobseeker Account Settings/Sex dropdown'))
+
+WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/div_Male'))
+
 WebUI.click(findTestObject('Object Repository/Jobseeker Account Settings/Save changes button'))
 
-//WebUI.closeBrowser()
+WebUI.delay(3)
+
+WebUI.closeBrowser()

@@ -6,6 +6,10 @@
    <elementGuidId>41186425-2ff7-437d-af38-15235a50abf1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Mid-Senior Level' and (text() = 'Mid-Senior Level' or . = 'Mid-Senior Level')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/form/div/div[2]/div/div/div/div/span[2]</value>
       </entry>
@@ -31,14 +35,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Mid-Senior level</value>
+      <value>Mid-Senior Level</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mid-Senior level</value>
+      <value>Mid-Senior Level</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

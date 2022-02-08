@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>div.job-card-container</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'job-card-list']//ul[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>job-card-container</value>
+      <value>job-card-list</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/a[1]/div</value>
+      <value>//div[@class = 'job-card-list']//ul[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

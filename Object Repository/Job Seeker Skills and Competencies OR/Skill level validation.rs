@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//form[@id='form']/div/div[2]/div[2]/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please select a level of expertise.' or . = 'Please select a level of expertise.')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Level is required</value>
+      <value>Please select a level of expertise.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

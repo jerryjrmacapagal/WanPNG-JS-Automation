@@ -35,7 +35,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers Personal
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Add photo button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Add Photo text'), 'Add Photo')
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Add Photo text'), 'Upload photo')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/First name label'), 'First name')
 
@@ -53,11 +53,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal In
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Province label'), 'Province')
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Province label'), 'Province or state')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Select province dropdown'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village label'), 'City or village')
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village label'), 'City or town')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village textbox'))
 
@@ -68,18 +68,6 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Person
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Sex label'), 'Sex')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Select sex dropdown'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner label'), 'Tick the box if you are a landowner')
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner text'), 'I am a landowner')
-
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Impact area label'), 'Impact area')
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Select impact area dropdown'))
 
 WebUI.closeBrowser()
 

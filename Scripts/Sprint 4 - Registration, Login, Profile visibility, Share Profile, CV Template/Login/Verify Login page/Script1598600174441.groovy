@@ -49,6 +49,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/Jobseeker Login Page/L
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseeker Login Page/Google icon login'))
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseeker Login Page/Log in with LinkedIn link'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseeker Login Page/Log in with LinkedIn text'), GlobalVariable.loginWithLinkedIn)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseeker Login Page/LinkedIn icon login'))
+
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseeker Login Page/Dont have Wan PNG account yet'), GlobalVariable.noAccountText)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseeker Login Page/Join now link'))

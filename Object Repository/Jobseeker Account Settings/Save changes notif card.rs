@@ -6,12 +6,16 @@
    <elementGuidId>b27bc2b4-e2f9-41cf-adee-f3cc48f6285c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.ant-notification-notice.notification-card.success.ant-notification-notice-closable</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'ant-notification-notice-message' and (text() = 'Your personal information has been updated.' or . = 'Your personal information has been updated.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-notification-notice notification-card success ant-notification-notice-closable</value>
+      <value>ant-notification-notice-message</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

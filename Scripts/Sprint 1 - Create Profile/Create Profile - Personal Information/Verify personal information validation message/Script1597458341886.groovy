@@ -14,20 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 //Call Login TestCase
 WebUI.callTestCase(findTestCase('Call Testcase/Jobseeker Register'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Call Testcase/Login Create Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 //Verify validation messages
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
-
 WebUI.doubleClick(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.doubleClick(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal info Next button'))
 
@@ -38,10 +39,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal In
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name validation'), 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name validation'), GlobalVariable.lastNameValidationMessage)
-
-//WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/Email address validation'), 5)
-//
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Email address validation'), GlobalVariable.emailValidationMessage)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number validation'), 5)
 
@@ -62,10 +59,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal In
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/Sex validation'), 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Sex validation'), GlobalVariable.sexValidationMessage)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/Impact area validation'), 5)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Impact area validation'), GlobalVariable.impactAreaValidationMessage)
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences title'), 5)
 

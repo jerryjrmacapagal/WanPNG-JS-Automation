@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//img[@class = 'sample-image -active' and @alt = 'Standard ']</value>
+         <value>//img[@class = 'preload-image sample-image -show' and @alt = 'Standard ']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sample-image -active</value>
+      <value>preload-image sample-image -show</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

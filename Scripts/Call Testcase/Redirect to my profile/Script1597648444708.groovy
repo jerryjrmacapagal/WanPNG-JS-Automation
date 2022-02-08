@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 String[] skills3 = findTestData('Skills').getAllData()
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 String[] skills4 = findTestData('Skills').getAllData()
 
@@ -71,6 +71,6 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Done button'))

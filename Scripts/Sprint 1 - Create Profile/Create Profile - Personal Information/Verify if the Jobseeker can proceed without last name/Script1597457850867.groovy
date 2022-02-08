@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Call Testcase/Input data personal information')
 //Clear firstname
 WebUI.doubleClick(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal info Next button'))
 

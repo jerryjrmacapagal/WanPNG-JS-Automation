@@ -17,8 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Redirect to My profile
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 //Execute test case
 WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Edit personal info button'))
 
@@ -34,11 +34,11 @@ WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Edit Person
 
 WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), ' ')
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), ' ')
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Edit Personal Info/Save button'))
 

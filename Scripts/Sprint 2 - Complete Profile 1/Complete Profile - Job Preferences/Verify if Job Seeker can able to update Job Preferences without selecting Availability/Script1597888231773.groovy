@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //Redirect ot my profile
-//WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Edit job preferences button'), 10)
@@ -32,6 +32,12 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Job Preferences OR/div_
 WebUI.click(findTestObject('Object Repository/Edit Job Preferences/Option Freelance'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Job Preferences OR/Availability dropdown'))
+
+WebUI.click(findTestObject('Object Repository/Edit Job Preferences/div_Immediately'))
+
+WebUI.click(findTestObject('Object Repository/Edit Job Preferences/Save button'))
+
+WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Edit job preferences button'))
 
 WebUI.mouseOver(findTestObject('Object Repository/Job Seeker Job Preferences OR/Availability dropdown'))
 
@@ -49,4 +55,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Edit Job Preferences/A
 
 //WebUI.verifyElementPresent(findTestObject('Object Repository/Edit Job Preferences/Save button'), 5)
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

@@ -28,6 +28,10 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Wor
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Edit button'))
 
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Add Work Experience/Job title textbox'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Add Work Experience/Job title textbox'), Keys.chord(Keys.BACK_SPACE))
+
 WebUI.setText(findTestObject('Object Repository/Jobseekers Add Work Experience/Job title textbox'), GlobalVariable.jobTitleValue)
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Save button'))

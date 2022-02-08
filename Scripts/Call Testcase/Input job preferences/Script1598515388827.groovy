@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //Select career level
+WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Job Preferences OR/Career level dropdown'), 5)
+
 WebUI.click(findTestObject('Object Repository/Job Seeker Job Preferences OR/Career level dropdown'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Job Preferences OR/div_Mid-Senior level'))

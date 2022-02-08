@@ -6,6 +6,10 @@
    <elementGuidId>9a47436e-7373-4cc4-952d-f3f0a90d9f41</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please enter your date of birth.' or . = 'Please enter your date of birth.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/div/form/div[7]/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Date of birth is required</value>
+      <value>Please enter your date of birth.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

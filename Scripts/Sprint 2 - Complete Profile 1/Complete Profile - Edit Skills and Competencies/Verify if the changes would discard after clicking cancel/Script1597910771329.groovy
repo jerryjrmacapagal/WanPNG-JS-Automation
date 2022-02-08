@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //Redirect to my profile
 WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Edit skills and competencies button'), 5)
@@ -29,9 +30,11 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/My Profile Add button'))
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Cancel button'))
+
+WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Discard changes button'))
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Save button'), 5)
 

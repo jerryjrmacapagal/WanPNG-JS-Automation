@@ -61,6 +61,10 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers My Pro
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers My Profile OR/No training button'))
 
+WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers My Profile OR/Affiliation section'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers My Profile OR/Affiliation title'))
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers My Profile OR/Skills competencies section'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers My Profile OR/Skills  competencies title'), GlobalVariable.skillsAndCompetenciesTitle)

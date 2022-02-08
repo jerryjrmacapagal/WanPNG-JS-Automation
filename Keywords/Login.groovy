@@ -22,7 +22,8 @@ class Login {
 
 	@Keyword
 	def GotoWanPNGpage() {
-		WebUI.openBrowser(GlobalVariable.UAT)
+		WebUI.openBrowser(GlobalVariable.Dev)
+		//		WebUI.openBrowser(GlobalVariable.localhost)
 		WebUI.maximizeWindow()
 	}
 
@@ -37,5 +38,12 @@ class Login {
 	def InputdataLogin() {
 		WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Email address textbox'), GlobalVariable.registeredEmail1)
 		WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Password textbox'), GlobalVariable.kcPassword)
+	}
+
+	@Keyword
+	def MessengerEmptyState() {
+		WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Email address textbox'), "qa.tester+gasowe3192@ubidy.com")
+		WebUI.setText(findTestObject('Object Repository/Jobseeker Login Page/Password textbox'), GlobalVariable.kcPassword)
+		WebUI.click(findTestObject('Object Repository/Jobseeker Login Page/Login button'))
 	}
 }

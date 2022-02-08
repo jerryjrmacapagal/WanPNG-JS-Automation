@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'ant-select-item-option-content' and (text() = 'Mechanical Engineering' or . = 'Mechanical Engineering')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -24,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-select-dropdown ant-select-dropdown-placement-bottomLeft </value>
+      <value>ant-select-item-option-content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Mechanical EngineeringMechanical Engineering</value>
+      <value>Mechanical Engineering</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

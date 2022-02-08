@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//a[@id='zocial-facebook']/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class = '_provider-icon' and @alt = 'Facebook']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>img</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -46,6 +50,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;zocial-facebook&quot;)/img[@class=&quot;_provider-icon&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>zocial-facebook</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

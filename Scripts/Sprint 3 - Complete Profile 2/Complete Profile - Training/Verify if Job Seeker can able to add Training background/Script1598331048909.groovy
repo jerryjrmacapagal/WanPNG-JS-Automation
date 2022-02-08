@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Redirect to my profile
-//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -108,4 +108,4 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Tra
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Training/h2_Pendleton State University'), findTestData("Universities").getValue("Universities", randomInsitute))
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

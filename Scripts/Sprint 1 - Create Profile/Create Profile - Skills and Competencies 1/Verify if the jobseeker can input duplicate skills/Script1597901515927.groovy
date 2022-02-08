@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Advanced skills title'), 5)
 
@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency duplicate validation'), 5)
 

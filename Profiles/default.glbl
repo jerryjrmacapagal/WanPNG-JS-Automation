@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Please enter your city or village.'</initValue>
+      <initValue>'Please enter your city or town.'</initValue>
       <name>villageValidationMessage</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,7 +46,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Please select your province.'</initValue>
+      <initValue>'Please select your province or state.'</initValue>
       <name>provinceValidationMessage</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -82,7 +82,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://192.168.100.205:30300/'</initValue>
-      <name>localhost</name>
+      <name>Dev</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -131,7 +131,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Mid-Senior level'</initValue>
+      <initValue>'Mid-Senior Level'</initValue>
       <name>careerLevelValue</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -201,7 +201,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Level'</initValue>
+      <initValue>'Level of expertise'</initValue>
       <name>skillLevelLabel</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -306,7 +306,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Update Photo'</initValue>
+      <initValue>' Upload Photo'</initValue>
       <name>updatePhotoButton</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -326,7 +326,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>' Update photo'</initValue>
+      <initValue>'Upload photo'</initValue>
       <name>updatePhotoText</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -496,7 +496,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Started month is required'</initValue>
+      <initValue>'Please select month started.'</initValue>
       <name>startedMonthValidation</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -506,12 +506,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Please input the correct month ended'</initValue>
+      <initValue>'Please select month ended.'</initValue>
       <name>endedMonthValidation</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Please select year ended (or expected to finish).'</initValue>
+      <initValue>'Please select year ended.'</initValue>
       <name>endedYearValidation</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -661,12 +661,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Job title is required'</initValue>
+      <initValue>'Please enter a job title.'</initValue>
       <name>jobTitleValidation</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Company name is required'</initValue>
+      <initValue>'Please enter a company name.'</initValue>
       <name>companyNameValidation</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -681,7 +681,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Are you sure you want to delete this position of'</initValue>
+      <initValue>'You’re about to delete this position of'</initValue>
       <name>deleteWorkExpSubtitle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1178,5 +1178,300 @@
       <description></description>
       <initValue>'http://uatjobseeker.wanpng.com/'</initValue>
       <name>UAT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Log in with LinkedIn'</initValue>
+      <name>loginWithLinkedIn</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Added to your Saved jobs.'</initValue>
+      <name>saveJobText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'10000'</initValue>
+      <name>minimumRateValue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Saved jobs'</initValue>
+      <name>saveJobsTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Applied jobs'</initValue>
+      <name>appliedJobsTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invited to apply'</initValue>
+      <name>invitedToApplyTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Eagle Ace Construction'</initValue>
+      <name>searchCompany</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Apply now'</initValue>
+      <name>applyButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'See how your skills match below!'</initValue>
+      <name>skillsMatchText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'View company profile'</initValue>
+      <name>viewCompanyProfile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tip: Show your interest by expressing why you would be a good fit for the position or why you want to work for them.'</initValue>
+      <name>noteTagTip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I want to apply'</initValue>
+      <name>applyMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your job application has been successfully submitted.'</initValue>
+      <name>submitApplicationToastMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Withdraw application'</initValue>
+      <name>withdrawApplciation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Filter'</initValue>
+      <name>filterTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Date posted'</initValue>
+      <name>datePostedLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pay period'</initValue>
+      <name>payPeriodLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Minimum rate (PGK)'</initValue>
+      <name>minimumRateLabel</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'By including a minimum rate, jobs without salary info will not appear in your search results.'</initValue>
+      <name>filterNoteText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job summary'</initValue>
+      <name>jobSummaryTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job description'</initValue>
+      <name>jobDescriptionTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Salary'</initValue>
+      <name>salaryTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://localhost:3020/'</initValue>
+      <name>localhost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Removed from your Saved jobs.'</initValue>
+      <name>removeSave</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Apply now'</initValue>
+      <name>applyNow</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Tip: Show your interest by expressing why you would be a good fit for the position or why you want to work for them.'</initValue>
+      <name>applyNowTip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Engineer'</initValue>
+      <name>jobSearch</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Relevance'</initValue>
+      <name>relevanceOption</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Recency'</initValue>
+      <name>recencyOption</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Central'</initValue>
+      <name>selectedProvince</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Engineering'</initValue>
+      <name>selectedJobClassification</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Anytime'</initValue>
+      <name>anytimeOption</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Last 24 hours'</initValue>
+      <name>last24hrs</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Last 7 days'</initValue>
+      <name>last7days</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Last 30 days'</initValue>
+      <name>last30days</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hourly'</initValue>
+      <name>hourly</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Weekly'</initValue>
+      <name>weekly</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bi-weekly'</initValue>
+      <name>biweekly</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Monthly'</initValue>
+      <name>monthly</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Annually'</initValue>
+      <name>annually</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Clear'</initValue>
+      <name>clear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Apply filter'</initValue>
+      <name>applyFilterButton</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Please enter a minimum rate.'</initValue>
+      <name>minimumRateValidation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Added to your Saved jobs.'</initValue>
+      <name>saveJobMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Removed from your Saved jobs.'</initValue>
+      <name>removeSavedJobMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your job application has been successfully submitted.'</initValue>
+      <name>appliedToastMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Just now'</initValue>
+      <name>justNow</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://192.168.100.205:30400/'</initValue>
+      <name>employerDev</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jerry.macapagal+mastmining@ubidy.com'</initValue>
+      <name>employerDevUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'The oil and gas industry is one of the largest sectors in the world in terms of dollar value, generating an estimated $3.3 trillion in revenue annually. Oil is crucial to the global economic framework, especially for its largest producers: the United States, Saudi Arabia, Russia, Canada, and China.\r\n\r\n\r\n\r\n\r\n\r\nInvestors looking to enter the oil and gas industry can quickly be overwhelmed by the complex jargon and unique metrics used throughout the sector. This introduction is designed to help anyone understand the fundamentals of companies involved in the oil and gas sector by explaining key concepts and the standards of measurement.'</initValue>
+      <name>companyDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Oscorp'</initValue>
+      <name>closedpauseddeclinedJob</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'No results found'</initValue>
+      <name>noResultsFound</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Marketing Coordinator'</initValue>
+      <name>appliedJob</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I will withdraw'</initValue>
+      <name>withdrawMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You have withdrawn your application for this position.'</initValue>
+      <name>withdrawPopUpMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Withdrawn'</initValue>
+      <name>withdrawnText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Withdraw application'</initValue>
+      <name>withdrawModalTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'By withdrawing, you can no longer reapply but you can still send or receive messages for this job.'</initValue>
+      <name>withdrawNoteTagText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Petroleum Business Operations Manager'</initValue>
+      <name>pausedJob</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

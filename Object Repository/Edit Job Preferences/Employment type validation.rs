@@ -6,6 +6,10 @@
    <elementGuidId>5edc1a26-d74a-4a08-87fd-3c7832bd7cbe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please select an employment type.' or . = 'Please select an employment type.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Freelance'])[1]/following::div[2]</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Employment type is required</value>
+      <value>Please select an employment type.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

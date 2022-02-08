@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase("Call Testcase/Redirect to Account Settings"), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseeker Account Settings/Input Current password'), 10)
 
 WebUI.setText(findTestObject('Object Repository/Jobseeker Account Settings/Input Current password'), GlobalVariable.kcPassword)

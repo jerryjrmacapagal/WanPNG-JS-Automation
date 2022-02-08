@@ -35,15 +35,15 @@ WebUI.setText(findTestObject('Object Repository/Jobseekers Add Work Experience/D
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Save button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/Started is required'), 5)
+WebUI.waitForElementPresent(findTestObject('Jobseekers Add Work Experience/Started Month Validation'), 5)
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Started is required'), GlobalVariable.startedMonthValidation)
+WebUI.verifyElementText(findTestObject('Jobseekers Add Work Experience/Started Month Validation'), GlobalVariable.startedMonthValidation)
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Year is required'), GlobalVariable.startedYearValidation)
+WebUI.verifyElementText(findTestObject('Jobseekers Add Work Experience/Started Year Validation'), GlobalVariable.startedYearValidation)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Please input the correct month ended'), GlobalVariable.endedMonthValidation)
+WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Ended Month Validation'), GlobalVariable.endedMonthValidation)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Work Experience/Ended year is required'), GlobalVariable.endedYearValidation)
+WebUI.verifyElementText(findTestObject('Jobseekers Add Work Experience/Ended Year Validation'), GlobalVariable.endedYearValidation)
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers Add Work Experience/Edit button'), 5)
 

@@ -9,22 +9,26 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/section/div/div[2]/div[3]/h2/span[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[@class = 'title _profile-text _text-bold' and (text() = 'Profile visibility' or . = 'Profile visibility')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>title</value>
+      <value>title _profile-text _text-bold</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

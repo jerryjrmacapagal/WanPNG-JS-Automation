@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'skills-and-competencies-advanced-color']</value>
+         <value>//span[@class = 'skill-tag -advanced-color']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>skills-and-competencies-advanced-color</value>
+      <value>skill-tag -advanced-color</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

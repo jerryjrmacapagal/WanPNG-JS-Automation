@@ -15,13 +15,13 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'No applied jobs yet' or . = 'No applied jobs yet')]</value>
+         <value>//div[@class='dropdown-container']/following-sibling::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,18 +35,18 @@
       <value>ant-row</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>No applied jobs yet</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;jobs-dashboard-section&quot;]/div[@class=&quot;ant-row&quot;]</value>
+      <value>//div[@class='dropdown-container']/following-sibling::div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

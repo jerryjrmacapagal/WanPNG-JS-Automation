@@ -22,8 +22,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Personal
 
 WebUI.navigateToUrl(GlobalVariable.redirectToStep2)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences title'), 5)
+//WebUI.verifyElementNotPresent(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences title'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal information title'), 'Personal information')
+//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal information title'), 'Personal information')
 
 WebUI.closeBrowser()

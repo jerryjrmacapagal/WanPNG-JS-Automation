@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Prototyping')
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'STEM skills')
 
@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Testing')
 
@@ -59,7 +59,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Budgeting')
 
@@ -67,7 +67,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Project Launch')
 
@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'CAD')
 
@@ -83,7 +83,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Basic'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), GlobalVariable.skillValueAutoCAD)
 
@@ -91,7 +91,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Data Structures')
 
@@ -99,7 +99,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Workflow Development')
 
@@ -107,7 +107,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Computer Skills')
 
@@ -115,7 +115,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Web Development')
 
@@ -123,7 +123,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Lean Manufacturing')
 
@@ -131,7 +131,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Programming Languages')
 
@@ -139,7 +139,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'SolidWorks')
 
@@ -147,7 +147,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Intermediate'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Security')
 
@@ -155,7 +155,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Machine Learning')
 
@@ -163,7 +163,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Debugging')
 
@@ -171,7 +171,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'UX/UI')
 
@@ -179,7 +179,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.setText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Skill or competency textbox'), 'Agile Development')
 
@@ -187,7 +187,7 @@ WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies
 
 WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/div_Advanced'))
 
-WebUI.click(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.click(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/maximum skills validation'), 5)
 

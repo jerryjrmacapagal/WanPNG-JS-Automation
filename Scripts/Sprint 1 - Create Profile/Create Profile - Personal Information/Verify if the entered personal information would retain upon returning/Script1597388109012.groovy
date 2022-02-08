@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -20,7 +21,8 @@ import com.kms.katalon.entity.global.GlobalVariableEntity
 import internal.GlobalVariable as GlobalVariable
 import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
-def mobileNumber = '9' + RandomStringUtils.randomNumeric(6)
+def mobileNumber = '9' + RandomStringUtils.randomNumeric(2)
+def mobileNumber2 = RandomStringUtils.randomNumeric(4)
 
 //Call Login Test Case
 WebUI.callTestCase(findTestCase('Call Testcase/Jobseeker Register'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -28,7 +30,7 @@ WebUI.callTestCase(findTestCase('Call Testcase/Jobseeker Register'), [:], Failur
 //Input Data
 WebUI.waitForElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), 5)
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'), mobileNumber)
+WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'), mobileNumber + mobileNumber2)
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select province dropdown'))
 
@@ -58,12 +60,6 @@ WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_Female'))
 
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
-
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select impact area dropdown'))
-
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_APDL 11'))
-
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal info Next button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences title'), 5)
@@ -77,24 +73,16 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Job Pre
 WebUI.click(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences Back button'))
 
 //Verify inputted data
-//WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/First name textbox'), 'value', GlobalVariable.FirstnameValue, 5)
-////
-//WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/Last name textbox'), 'value', GlobalVariable.LastnameValue, 5)
-
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Email address textbox'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'), 'value', mobileNumber, 5)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'), 'value', mobileNumber + " " +  mobileNumber2, 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Select province dropdown'), 'Bougainville Region')
 
-WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village textbox'), 'value', village, 5)
+WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village textbox'), 'value', findTestData('Cities').getValue('Cities', randomCities), 5)
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/Date of birth textbox'), 'value', GlobalVariable.birthdateValue, 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Select sex dropdown'), GlobalVariable.femaleSex)
-
-//WebUI.verifyElementChecked(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checked'), 5)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Select impact area dropdown'), GlobalVariable.impactAreaValue)
 
 WebUI.closeBrowser()

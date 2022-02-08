@@ -6,16 +6,16 @@
    <elementGuidId>ff1047e5-dca7-4afb-a467-4647f2b3ef3c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#rc_select_3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='rc_select_3']</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>#rc_select_3</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'rc_select_0']</value>
+         <value>//*[@class = 'ant-input-affix-wrapper ant-select-selection-search-input search-keyword']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <value>Search by job title, company, or keywords</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -105,7 +105,7 @@
       <value>rc_select_3_list_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

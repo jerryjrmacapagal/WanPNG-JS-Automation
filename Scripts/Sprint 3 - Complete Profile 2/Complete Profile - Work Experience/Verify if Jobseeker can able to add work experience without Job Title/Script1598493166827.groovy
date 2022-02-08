@@ -18,13 +18,14 @@ import org.openqa.selenium.Keys as Keys
 
 //Redirect to my profile
 WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.callTestCase(findTestCase("Call Testcase/Add work experience"), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Add Work Experience/Job title textbox'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Add Work Experience/Job title textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseekers Add Work Experience/Job title textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Add Work Experience/Save button'))
 

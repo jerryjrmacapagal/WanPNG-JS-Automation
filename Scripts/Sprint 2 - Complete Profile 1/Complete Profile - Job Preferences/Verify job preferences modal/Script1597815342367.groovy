@@ -99,8 +99,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Edit Job Preferenc
 
 WebUI.verifyElementText(findTestObject('Object Repository/Edit Job Preferences/Employment type validation'), GlobalVariable.employmentTypeValidation)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Edit Job Preferences/Availability validation'), 5)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Edit Job Preferences/Availability validation'), GlobalVariable.availabilityValidation)
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Edit Job Preferences/Availability validation'), 5)
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/Edit Job Preferences/Availability validation'), GlobalVariable.availabilityValidation)
 
 WebUI.closeBrowser()

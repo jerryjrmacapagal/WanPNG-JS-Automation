@@ -69,7 +69,7 @@
       <guid>f4825923-2b9d-4211-b0e4-65293618ead6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 4 - Registration, Login, Profile visibility, Share Profile, CV Template/Profile Visibility/Verify if jobseeker can change visibility from Standard Default to other option</testCaseId>
+      <testCaseId>Test Cases/Sprint 4 - Registration, Login, Profile visibility, Share Profile, CV Template/Profile Visibility/Verify if jobseeker can change visibility option</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>497dad2c-b7cb-453a-87a4-e8ffd63bc9f3</guid>

@@ -23,7 +23,7 @@ CustomKeywords.'InputDataRegistration.register'()
 
 WebUI.sendKeys(findTestObject('Object Repository/Jobseeker Register/Last name textbox'), Keys.chord(Keys.CONTROL, 'a'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Last name textbox'), GlobalVariable.space)
+WebUI.sendKeys(findTestObject('Object Repository/Jobseeker Register/Last name textbox'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('Object Repository/Jobseeker Register/Join now button'))
 

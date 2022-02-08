@@ -26,9 +26,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers CV Temp
 
 WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Share profile button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers CV Template/Templates button'), 5)
-
-WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Templates button'))
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers CV Template/Templates button'), 5)
+//
+//WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Templates button'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers CV Template/Bold sample-image'), 5)
 

@@ -50,49 +50,49 @@
    <testCaseLink>
       <guid>6c9ef50a-6c27-44e5-8f9f-8476ce7652f6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 2 - Complete Profile 1/Complete Profile - Job Preferences/Verify if Job Seeker can able to update Job Preferences without selecting Availability</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e22b5516-b3e5-4326-b633-9f23ffee9d5e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Sprint 4 - Registration, Login, Profile visibility, Share Profile, CV Template/Profile Visibility/Verify if jobseeker can change visibility from Standard Default to other option</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sprint 4 - Registration, Login, Profile visibility, Share Profile, CV Template/Profile Visibility/Verify if jobseeker can change visibility option</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>487035b3-64bf-4497-b036-2d528e7b3747</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 5 - CV Template and Forgot Password/CV Template/Verify if Jobseeker can able to view all CV templates</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5ee39f43-93cb-4324-8183-c9b592cc6467</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 7 - Copy Link, Account Settings/Account Settings/Personal information/Verify account settings page</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e25d48bd-87b7-46ce-8e22-f69363396a1f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 7 - Copy Link, Account Settings/Account Settings/Personal information/Verify if Jobseeker can able to edit update Personal Information Date of birth and Sex</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f68a6eb2-b7bb-4b29-ba67-252adb814381</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 7 - Copy Link, Account Settings/Share profile - Copy link/Verify if a link is generated after clicking the copy link button</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>970a15c7-fbf8-4946-999c-68e50e1154a4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 7 - Copy Link, Account Settings/Account Settings/Change password/Verify if Jobseeker can change the password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>519a80c4-e033-4bab-8077-ab706ee06d91</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sprint 7 - Copy Link, Account Settings/Share profile - Copy link/Verify the copy link modal</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

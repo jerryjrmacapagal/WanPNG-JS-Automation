@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/div/form/div[5]/div/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Province or state' and (text() = 'Province or state' or . = 'Province or state')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -38,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Province</value>
+      <value>Province or state</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Province</value>
+      <value>Province or state</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

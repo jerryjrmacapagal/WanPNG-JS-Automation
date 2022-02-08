@@ -55,4 +55,4 @@ WebUI.navigateToUrl(JobseekerUrl)
 
 WebUI.delay(5)
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

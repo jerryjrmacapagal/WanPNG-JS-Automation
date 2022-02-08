@@ -19,7 +19,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 //Call login
 
-//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //execute testcase
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Edit personal info button'), 10)
@@ -44,4 +44,4 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Prof
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers My Profile OR/Updated City'), GlobalVariable.updatedCityPersonalInfo + findTestData("Cities").getValue("Cities", randomCity))
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

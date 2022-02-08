@@ -6,6 +6,10 @@
    <elementGuidId>232e0ef6-21f6-4c9f-94a0-5906afc9c9c9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please select an employment type.' or . = 'Please select an employment type.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/form/div[2]/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Employment type is required</value>
+      <value>Please select an employment type.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

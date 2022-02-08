@@ -19,6 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //Call login
 WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Register"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Login Create Profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Execute testcase
 WebUI.callTestCase(findTestCase("Call Testcase/Input data personal information"), [:], FailureHandling.STOP_ON_FAILURE)
@@ -47,9 +48,9 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Job Seeker Skills
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Select level of experties'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'))
+WebUI.verifyElementClickable(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Add button'), GlobalVariable.addButton)
+WebUI.verifyElementText(findTestObject('Job Seeker Skills and Competencies OR/Create profile Add button'), GlobalVariable.addButton)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Job Seeker Skills and Competencies OR/Back button'))
 

@@ -6,6 +6,10 @@
    <elementGuidId>722bc633-69bb-4130-a436-93b158a84b74</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@role = 'alert' and (text() = 'Please select your sex.' or . = 'Please select your sex.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/div/form/div[8]/div[2]/div[2]/div</value>
       </entry>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sex is required</value>
+      <value>Please select your sex.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

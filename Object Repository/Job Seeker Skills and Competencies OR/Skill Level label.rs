@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//form[@id='form']/div/div[2]/div/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@title = 'Level of expertise' and (text() = 'Level of expertise' or . = 'Level of expertise')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -38,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Level</value>
+      <value>Level of expertise</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Level</value>
+      <value>Level of expertise</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

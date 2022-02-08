@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'skills-and-competencies-index-advanced-color']</value>
+         <value>//*[@class = 'skill-tag -advanced-color']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>skills-and-competencies-index-advanced-color</value>
+      <value>skill-tag -advanced-color</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

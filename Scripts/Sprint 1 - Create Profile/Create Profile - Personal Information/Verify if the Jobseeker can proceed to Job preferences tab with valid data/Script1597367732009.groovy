@@ -14,15 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
+import org.apache.commons.lang.RandomStringUtils
+import org.checkerframework.checker.units.qual.Length as RandomStringUtils
 
 //def firstName = RandomStringUtils.randomAlphanumeric(10)
 //
 //def lastName = RandomStringUtils.randomAlphabetic(10)
 //
-def mobileNumber = RandomStringUtils.randomNumeric(20)
+def mobileNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
-def village = RandomStringUtils.randomAlphabetic(10)
+//def village = RandomStringUtils.randomAlphabetic(10)
 
 //def emailAddress = 'qa.tester+' + firstName + '@gmail.com'
 
@@ -41,7 +42,11 @@ WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_Bougainville Region'))
 
-WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village textbox'), village)
+String[] province = findTestData("Cities").getAllData()
+
+int randomCity = new Random().nextInt(province.length + 1)
+
+WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village textbox'), findTestData("Cities").getValue("Cities", randomCity))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Date of birth textbox'))
 
@@ -61,11 +66,11 @@ WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_Female'))
 
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
+//WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
+//
+//WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select impact area dropdown'))
 
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select impact area dropdown'))
-
-WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_APDL 11'))
+//WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_APDL 11'))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal info Next button'))
 

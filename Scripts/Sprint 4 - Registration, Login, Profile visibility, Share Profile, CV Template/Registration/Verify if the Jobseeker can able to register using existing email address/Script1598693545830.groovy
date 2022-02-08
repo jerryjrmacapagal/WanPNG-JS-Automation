@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-def emailAddress = 'jerry.macapagal+00@ubidy.com'
+def emailAddress = 'qa.tester+ife505@ubidy.com'
 
 CustomKeywords.'Login.GotoWanPNGpage'()
 

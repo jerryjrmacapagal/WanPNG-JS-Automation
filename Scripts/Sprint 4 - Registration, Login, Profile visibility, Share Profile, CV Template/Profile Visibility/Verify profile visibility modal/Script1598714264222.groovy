@@ -15,9 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'Login.GotoWanPNGpage'()
+//CustomKeywords.'Login.GotoWanPNGpage'()
+//
+//CustomKeywords.'Login.loginAccount'()
 
-CustomKeywords.'Login.loginAccount'()
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Profile visibility section'), 5)
 

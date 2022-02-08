@@ -11,13 +11,13 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id = 'form_level']</value>
+         <value>//input[@id = 'form_level']//parent::span//parent::div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,14 +38,14 @@
       <value>Select level of experties</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form&quot;)/div[@class=&quot;skills-and-competencies-form&quot;]/div[@class=&quot;ant-row ant-form-item skills-and-competencies-form-level&quot;]/div[@class=&quot;ant-col ant-form-item-control&quot;]/div[@class=&quot;ant-form-item-control-input&quot;]/div[@class=&quot;ant-form-item-control-input-content&quot;]/div[@class=&quot;ant-select ant-select-single ant-select-show-arrow&quot;]/div[@class=&quot;ant-select-selector&quot;]</value>
+      <value>//input[@id = 'form_level']//parent::span//parent::div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

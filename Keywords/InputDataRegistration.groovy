@@ -22,26 +22,28 @@ import internal.GlobalVariable
 
 public class InputDataRegistration {
 
-	def firstName = 'Jerry+' + RandomStringUtils.randomAlphanumeric(4)
+	def firstName = 'Jerry'
 
 	def lastName = 'Macapagal'
 
-	def emailAddress = (GlobalVariable.kcEmailAddress + firstName) + GlobalVariable.kcDomain
+	def emailAddress = (GlobalVariable.kcEmailAddress + firstName + "+" + RandomStringUtils.randomAlphanumeric(4)) + GlobalVariable.kcDomain
 
 	@Keyword
 	def register() {
 
-		WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Log in to Jobseeker/register link'), 5)
+		WebUI.delay(3)
 
-		WebUI.click(findTestObject('Object Repository/Page_Log in to Jobseeker/register link'))
+		WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseeker Register/Join now link'), 5)
 
-		WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input firstName'), firstName)
+		WebUI.click(findTestObject('Object Repository/Jobseeker Register/Join now link'))
 
-		WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input lastName'), lastName)
+		WebUI.setText(findTestObject('Object Repository/Jobseeker Register/First name textbox'), firstName)
 
-		WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input email'), emailAddress)
+		WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Last name textbox'), lastName)
 
-		WebUI.setText(findTestObject('Object Repository/Page_Log in to Jobseeker/register input password'), GlobalVariable.kcPassword)
+		WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Email address textbox'), emailAddress)
+
+		WebUI.setText(findTestObject('Object Repository/Jobseeker Register/Password textbox'), GlobalVariable.kcPassword)
 	}
 
 	//	GlobalVariable.registeredEmail1Address = emailAddress

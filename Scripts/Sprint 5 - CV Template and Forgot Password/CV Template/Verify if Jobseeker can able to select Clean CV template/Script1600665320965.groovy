@@ -30,7 +30,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers CV Templ
 
 WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Clean sample-image'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Active Clean sample-image'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Active Clean sample-image'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers CV Template/Clean template title'), GlobalVariable.cleanTemplate)
 
@@ -42,9 +42,9 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Templ
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Work experience Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Education Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Education Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Training Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Training Section'))
 
 //SCENARIO 2: Verify if the job seeker's profile is displayed as 'Clean' template upon clicking 'Done' button
 WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Done button'))
@@ -57,9 +57,9 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Templ
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Work experience Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Education Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Education Section'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Training Section'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers CV Template/Clean Training Section'))
 
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobseekers CV Template/Choose a template title'), 5)
 

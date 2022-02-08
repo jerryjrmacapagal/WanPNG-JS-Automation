@@ -20,8 +20,6 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
 
 def mobileNumber = "9" + RandomStringUtils.randomNumeric(6)
 
-def village = RandomStringUtils.randomAlphabetic(7)
-
 //Input data
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'), 5)
 
@@ -56,9 +54,3 @@ WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_13
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select sex dropdown'))
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_Male'))
-
-//WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Landowner checkbox'))
-
-//WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select impact area dropdown'))
-//
-//WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_APDL 11'))

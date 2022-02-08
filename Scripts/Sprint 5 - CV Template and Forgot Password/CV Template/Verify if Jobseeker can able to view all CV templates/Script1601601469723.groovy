@@ -15,13 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-//WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Share profile button'), 5)
 
 WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Share profile button'))
 
-WebUI.delay(5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers CV Template/Templates button'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Templates button'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers CV Template/Choose a template title'), 5)
 
@@ -41,4 +45,4 @@ WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Standard sa
 
 WebUI.click(findTestObject('Object Repository/Jobseekers CV Template/Done button'))
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()

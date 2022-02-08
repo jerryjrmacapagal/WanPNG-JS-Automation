@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[8]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;education-card&quot;]//button[@class=&quot;ant-btn education-edit-button _button -outline&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;profile-section&quot;]/div[@class=&quot;ant-row ant-row-center&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-24 ant-col-lg-17&quot;]/div[@class=&quot;education-container profile-item&quot;]/div[@class=&quot;education-preview-container&quot;]/div[@class=&quot;display-education-result&quot;]/div[2]/div[@class=&quot;display-education-label-edit&quot;]/button[@class=&quot;ant-btn display-education-edit-button-container _button -outline&quot;]</value>
+      <value>//div[@class=&quot;education-card&quot;]//button[@class=&quot;ant-btn education-edit-button _button -outline&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
