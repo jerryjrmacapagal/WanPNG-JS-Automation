@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can view their application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f091da41-1843-46d5-a82d-15b37da1431e</testCaseGuid>
+</TestCaseEntity>

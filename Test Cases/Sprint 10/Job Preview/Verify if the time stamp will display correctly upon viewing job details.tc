@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the time stamp will display correctly upon viewing job details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ae50b1d-b7ce-486f-b434-5d5a1eb0392f</testCaseGuid>
+</TestCaseEntity>

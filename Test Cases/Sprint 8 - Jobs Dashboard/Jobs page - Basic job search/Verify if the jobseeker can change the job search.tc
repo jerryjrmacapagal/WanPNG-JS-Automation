@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can change the job search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4efcb9de-7fb3-400b-8274-55abc5d42a57</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if total number of saved job is increased when the job seeker saves a job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3bb21ce-67f7-4f0c-b11d-02c485575e34</testCaseGuid>
+</TestCaseEntity>

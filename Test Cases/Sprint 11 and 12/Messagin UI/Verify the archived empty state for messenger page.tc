@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the archived empty state for messenger page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b098d882-a76f-4dc2-a4d5-4de4ad6a1af9</testCaseGuid>
+</TestCaseEntity>

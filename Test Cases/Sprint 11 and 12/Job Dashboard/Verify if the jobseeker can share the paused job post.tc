@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can share the paused job post</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f4afd43-8624-4a62-a41b-973989059d23</testCaseGuid>
+</TestCaseEntity>

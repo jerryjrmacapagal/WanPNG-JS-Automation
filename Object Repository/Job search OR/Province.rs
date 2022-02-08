@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Province</name>
+   <tag></tag>
+   <elementGuidId>f556fe5a-94f6-45a4-8277-493e3f9a1df2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//ul[@class='search-jobs-enter-done'][1]//span[@class=&quot;job-card-footer-province&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//ul[@class='search-jobs-enter-done'][1]//span[@class=&quot;job-card-footer-province&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the job preview would close by clicking the X button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2faace3-fc85-4a26-9f6b-0395740642cf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can apply filter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5562ecc-d49e-4e42-9508-bf2b36e8ce1d</testCaseGuid>
+</TestCaseEntity>

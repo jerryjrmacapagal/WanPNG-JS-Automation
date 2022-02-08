@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the message conversation by Jobseeker and Employer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0cc33ec-46ea-4af2-a9fd-251f94ca5507</testCaseGuid>
+</TestCaseEntity>

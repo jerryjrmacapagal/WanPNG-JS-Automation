@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can view the employer profile by clicking the company name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e23c1dd-9e97-4534-a28b-8e07f18857fb</testCaseGuid>
+</TestCaseEntity>

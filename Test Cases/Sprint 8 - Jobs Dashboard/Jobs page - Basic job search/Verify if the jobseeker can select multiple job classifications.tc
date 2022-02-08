@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can select multiple job classifications</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f54a7c14-3ba4-4354-b3c8-aedb65ac15fd</testCaseGuid>
+</TestCaseEntity>

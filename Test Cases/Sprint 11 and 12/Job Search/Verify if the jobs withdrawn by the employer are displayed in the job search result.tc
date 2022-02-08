@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobs withdrawn by the employer are displayed in the job search result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0185408c-cfd7-4692-a072-9e4c51f25588</testCaseGuid>
+</TestCaseEntity>

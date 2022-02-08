@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the user can go back to the previous job using the Previous button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be83db2c-d6ce-48d0-81c8-662a799b43b2</testCaseGuid>
+</TestCaseEntity>

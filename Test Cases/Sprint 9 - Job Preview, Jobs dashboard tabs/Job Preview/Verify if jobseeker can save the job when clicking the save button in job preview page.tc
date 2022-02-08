@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if jobseeker can save the job when clicking the save button in job preview page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd095bf5-29f1-4a14-84e7-bd724761abc9</testCaseGuid>
+</TestCaseEntity>

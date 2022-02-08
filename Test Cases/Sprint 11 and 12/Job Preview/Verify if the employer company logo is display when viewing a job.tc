@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the employer company logo is display when viewing a job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e41a502-bdbc-4608-9438-663b79b4f86b</testCaseGuid>
+</TestCaseEntity>

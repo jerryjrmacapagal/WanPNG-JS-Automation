@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can change the selected province without changing the searched keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dad0cca-ea9d-4547-b14c-bd9aa332e412</testCaseGuid>
+</TestCaseEntity>

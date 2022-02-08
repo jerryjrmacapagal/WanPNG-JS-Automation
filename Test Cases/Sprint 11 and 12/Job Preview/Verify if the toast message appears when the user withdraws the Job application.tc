@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the toast message appears when the user withdraws the Job application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd60bdea-e9df-4e81-9992-c78e8c25b8eb</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the empty state design for messenger page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>28ea2ea0-977e-4a82-92ab-bda4bb286929</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify job preview for paused jobs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54948673-726a-4ff2-b1f5-ff2e7d5a2b25</testCaseGuid>
+</TestCaseEntity>

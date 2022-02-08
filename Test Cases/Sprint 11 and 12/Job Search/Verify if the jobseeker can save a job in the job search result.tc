@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can save a job in the job search result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6b88a50-389e-4378-a6a6-0e7b6346dbcb</testCaseGuid>
+</TestCaseEntity>

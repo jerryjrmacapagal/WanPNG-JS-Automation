@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can search for a job by entering a keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac5d5685-5ba5-49c9-a5ab-18abc03e5120</testCaseGuid>
+</TestCaseEntity>

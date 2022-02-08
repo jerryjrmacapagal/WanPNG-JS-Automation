@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if jobseeker can apply to the job by clicking apply now button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c6c5d82-9c3b-4ae3-8f74-9f83f0a942dd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if total number of applied job is increased when the job seeker applied a job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8934bbe-c7ec-453b-b8f5-0e2dba7bebe0</testCaseGuid>
+</TestCaseEntity>

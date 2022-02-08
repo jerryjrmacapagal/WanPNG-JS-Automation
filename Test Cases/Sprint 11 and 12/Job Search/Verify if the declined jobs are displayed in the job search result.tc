@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the declined jobs are displayed in the job search result</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5103e1eb-e3a9-404f-b58c-ea123d0c317e</testCaseGuid>
+</TestCaseEntity>

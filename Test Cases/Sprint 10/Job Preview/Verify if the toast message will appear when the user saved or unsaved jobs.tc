@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the toast message will appear when the user saved or unsaved jobs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21262fe1-6366-49f3-a5cf-d320bbc81d4d</testCaseGuid>
+</TestCaseEntity>

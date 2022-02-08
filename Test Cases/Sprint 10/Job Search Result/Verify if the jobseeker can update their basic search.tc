@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can update their basic search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6954d45-d71b-4f6d-9cac-422c9b3ba832</testCaseGuid>
+</TestCaseEntity>

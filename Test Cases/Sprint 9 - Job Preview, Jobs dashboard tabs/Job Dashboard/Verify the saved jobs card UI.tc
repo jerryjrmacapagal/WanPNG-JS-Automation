@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the saved jobs card UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e8a5e170-91db-4492-8ea8-902697268a3f</testCaseGuid>
+</TestCaseEntity>

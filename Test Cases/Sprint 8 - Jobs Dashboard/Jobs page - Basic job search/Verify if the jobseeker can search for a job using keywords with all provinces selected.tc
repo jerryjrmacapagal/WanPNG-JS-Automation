@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can search for a job using keywords with all provinces selected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47caf4b2-6ec1-45de-88b2-9da47d75dc0a</testCaseGuid>
+</TestCaseEntity>

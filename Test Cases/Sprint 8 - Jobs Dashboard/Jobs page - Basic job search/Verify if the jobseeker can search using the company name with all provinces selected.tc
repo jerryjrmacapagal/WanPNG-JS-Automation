@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can search using the company name with all provinces selected</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0ed2912-1921-45f8-a18e-751b81bba24a</testCaseGuid>
+</TestCaseEntity>
