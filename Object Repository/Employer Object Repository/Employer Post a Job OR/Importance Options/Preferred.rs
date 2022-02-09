@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Central</name>
+   <name>Preferred</name>
    <tag></tag>
-   <elementGuidId>63e0859d-efeb-4d03-ad18-e98e82b57526</elementGuidId>
+   <elementGuidId>5003b5bc-b9bc-4019-aa15-0c1ff457846c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@title = 'Central']</value>
+         <value>//div[@title = 'Preferred']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Central</value>
+      <value>Preferred</value>
    </webElementProperties>
 </WebElementEntity>

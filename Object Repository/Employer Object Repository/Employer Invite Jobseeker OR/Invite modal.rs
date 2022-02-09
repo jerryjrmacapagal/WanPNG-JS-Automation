@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Central</name>
+   <name>Invite modal</name>
    <tag></tag>
-   <elementGuidId>63e0859d-efeb-4d03-ad18-e98e82b57526</elementGuidId>
+   <elementGuidId>048420cd-6f87-4441-a99c-4f95dae57ec6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@title = 'Central']</value>
+         <value>//div[@class = 'invite-to-apply-modal-content']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,8 +22,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Central</value>
+      <value>invite-to-apply-modal-content</value>
    </webElementProperties>
 </WebElementEntity>

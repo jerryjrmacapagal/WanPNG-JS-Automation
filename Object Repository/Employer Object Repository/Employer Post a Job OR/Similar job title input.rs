@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Similar job title</name>
+   <name>Similar job title input</name>
    <tag></tag>
    <elementGuidId>1d601337-76c6-44f9-8541-1cf56ad1c790</elementGuidId>
    <selectorCollection>

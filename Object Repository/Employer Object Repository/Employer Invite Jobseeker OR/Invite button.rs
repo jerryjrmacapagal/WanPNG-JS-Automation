@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Central</name>
+   <name>Invite button</name>
    <tag></tag>
-   <elementGuidId>63e0859d-efeb-4d03-ad18-e98e82b57526</elementGuidId>
+   <elementGuidId>c3b0384d-92bc-46ee-ab99-93b0b29a61eb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@title = 'Central']</value>
+         <value>//button[@class = 'ant-btn ant-btn-primary invite-to-apply-banner-button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Central</value>
+      <value>ant-btn ant-btn-primary invite-to-apply-banner-button</value>
    </webElementProperties>
 </WebElementEntity>

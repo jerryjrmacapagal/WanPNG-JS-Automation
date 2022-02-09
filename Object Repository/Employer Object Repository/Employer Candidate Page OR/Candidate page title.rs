@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Central</name>
+   <name>Candidate page title</name>
    <tag></tag>
-   <elementGuidId>63e0859d-efeb-4d03-ad18-e98e82b57526</elementGuidId>
+   <elementGuidId>9475f6a8-f119-4ff2-8fa6-7883d2ffc033</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@title = 'Central']</value>
+         <value>//div[@class = 'candidates-header-title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,8 +22,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>class</name>
       <type>Main</type>
-      <value>Central</value>
+      <value>candidates-header-title</value>
    </webElementProperties>
 </WebElementEntity>
