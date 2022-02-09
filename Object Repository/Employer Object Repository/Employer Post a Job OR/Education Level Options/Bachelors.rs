@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Jobs page tab</name>
+   <name>Bachelors</name>
    <tag></tag>
-   <elementGuidId>1ad5b117-36bd-43f3-af1c-02381a1f8061</elementGuidId>
+   <elementGuidId>b8dbfa1d-fc91-4ad9-a725-a4f4b995582d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
+         <value>//div[@title = concat(&quot;Bachelor&quot; , &quot;'&quot; , &quot;s&quot;)]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Bachelor's</value>
    </webElementProperties>
 </WebElementEntity>

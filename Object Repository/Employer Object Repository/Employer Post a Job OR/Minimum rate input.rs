@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Jobs page tab</name>
+   <name>Minimum rate input</name>
    <tag></tag>
-   <elementGuidId>1ad5b117-36bd-43f3-af1c-02381a1f8061</elementGuidId>
+   <elementGuidId>ddacd15f-f8ff-484f-a896-97cb4c6d5bb3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
+         <value>//input[@id = 'minimumRate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>minimumRate</value>
    </webElementProperties>
 </WebElementEntity>

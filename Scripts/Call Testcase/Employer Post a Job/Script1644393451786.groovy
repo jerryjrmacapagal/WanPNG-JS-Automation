@@ -17,14 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to Jobs Page"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Employer Login"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply tab'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Employer Object Repository/Employer Post a Job OR/Post a Job button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Invited to apply tab'))
+WebUI.click(findTestObject('Object Repository/Employer Object Repository/Employer Post a Job OR/Post a Job button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Invited to apply title'), GlobalVariable.invitedToApplyTitle)
+WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Jobs page OR/Invited to apply section Empty state'), 5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Employer Object Repository/Employer Post a Job OR/Job builder page'), 5)
 
-WebUI.closeBrowser()
+//
+//WebUI.

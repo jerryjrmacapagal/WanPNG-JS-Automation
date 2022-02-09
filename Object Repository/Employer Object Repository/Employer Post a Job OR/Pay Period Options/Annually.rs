@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Jobs page tab</name>
+   <name>Annually</name>
    <tag></tag>
-   <elementGuidId>1ad5b117-36bd-43f3-af1c-02381a1f8061</elementGuidId>
+   <elementGuidId>02292e24-c02b-49d9-a90d-ce3844515f1d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
+         <value>//div[@title = 'Annually']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Annually</value>
    </webElementProperties>
 </WebElementEntity>

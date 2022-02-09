@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Jobs page tab</name>
+   <name>Job description input</name>
    <tag></tag>
-   <elementGuidId>1ad5b117-36bd-43f3-af1c-02381a1f8061</elementGuidId>
+   <elementGuidId>a2465ba1-e4fa-4aa2-9a73-30a2a1fddc4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
+         <value>//div[@id='job-description']//div[@class='ql-editor ql-blank']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[(text() = 'Jobs' or . = 'Jobs')]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
+      <value>//div[@id='job-description']//div[@class='ql-editor ql-blank']</value>
    </webElementProperties>
 </WebElementEntity>

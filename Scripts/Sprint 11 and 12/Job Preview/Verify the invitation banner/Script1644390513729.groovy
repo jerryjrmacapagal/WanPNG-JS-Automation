@@ -17,14 +17,32 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to Jobs Page"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:])
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Jobs page tab'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobs page OR/Jobs page tab'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Jobs page header title'), 5)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply tab'), 5)
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Invited to apply tab'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Invited to apply title'), GlobalVariable.invitedToApplyTitle)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/First card Job invitation'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Jobs page OR/Invited to apply section Empty state'), 5)
+WebUI.click(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/First card Job invitation'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/Invitation Banner'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/Invitation icon'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/Invitation title'), 5)
+
+WebUI.verifyTextPresent("has invited you to apply", true)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/Decline button'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/Accept button'))
 
 WebUI.closeBrowser()

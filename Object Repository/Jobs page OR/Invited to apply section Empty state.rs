@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Invited to apply section</name>
+   <name>Invited to apply section Empty state</name>
    <tag></tag>
    <elementGuidId>2bea55d9-6b40-4f27-a31e-0d9507519d2f</elementGuidId>
    <selectorCollection>
