@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the user can decline invitation job from employer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b121aa31-5a03-45c6-962f-e3557681f023</testCaseGuid>
+</TestCaseEntity>

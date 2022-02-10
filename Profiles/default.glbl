@@ -1474,4 +1474,64 @@
       <initValue>'Petroleum Business Operations Manager'</initValue>
       <name>pausedJob</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Accept invitation &amp; apply'</initValue>
+      <name>acceptInvitationTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You are about to accept an invite to apply for a'</initValue>
+      <name>acceptInvitationDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Message to:'</initValue>
+      <name>messageToText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'By accepting this invitation, your application will advance to the Reviewing stage.'</initValue>
+      <name>acceptInviteNoteTagDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Apply'</initValue>
+      <name>applyText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Are you interested in applying for this job position?'</initValue>
+      <name>applyInviteMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your application for this position has been submitted.'</initValue>
+      <name>applyToastMessageDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Decline invite'</initValue>
+      <name>declineInvite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You are about to decline an invite to apply for a'</initValue>
+      <name>declineInviteDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'By declining the invite, you can no longer apply to this job.'</initValue>
+      <name>declineNoteTagDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Thank you for the invitation, but I\'m looking for a different opportunity.'</initValue>
+      <name>declineInviteMessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You have declined the invite to apply for this position.'</initValue>
+      <name>declineToastMessageDescription</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
