@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify job preview for closed jobs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a312413f-4a0b-406f-bbb0-f4250c7c80e7</testCaseGuid>
+</TestCaseEntity>
