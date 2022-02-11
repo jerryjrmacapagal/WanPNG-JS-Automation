@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the discard modal for Accept invitation apply modal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf3904eb-583f-41e7-8fb7-a3f07ae6d4da</testCaseGuid>
+</TestCaseEntity>

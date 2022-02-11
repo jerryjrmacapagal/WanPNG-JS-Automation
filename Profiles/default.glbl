@@ -1534,4 +1534,19 @@
       <initValue>'You have declined the invite to apply for this position.'</initValue>
       <name>declineToastMessageDescription</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Discard application?'</initValue>
+      <name>discardApplication</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your application along with your message will not be submitted.'</initValue>
+      <name>discardApplicationDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'This job is no longer active'</initValue>
+      <name>closedJobText</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the discard modal when the user clicks the Cancel button in apply now modal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d89d909a-b97e-4e51-b87e-f17bd9fb7085</testCaseGuid>
+</TestCaseEntity>
