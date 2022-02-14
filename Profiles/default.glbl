@@ -1549,4 +1549,14 @@
       <initValue>'This job is no longer active'</initValue>
       <name>closedJobText</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Company profile'</initValue>
+      <name>companyProfile</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'About'</initValue>
+      <name>about</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
