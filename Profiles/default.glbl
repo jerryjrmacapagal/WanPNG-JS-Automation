@@ -1559,4 +1559,9 @@
       <initValue>'About'</initValue>
       <name>about</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Search jobs and companies hiring in Papua New Guinea!'</initValue>
+      <name>jobSearchHeaderTitle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
