@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
+//WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/First card job search result'), 5)
+WebUI.callTestCase(findTestCase("Call Testcase/Redirect to Jobs Page"), [:])
 
-WebUI.click(findTestObject('Object Repository/Job search OR/First card job search result'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/First job card'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobs page OR/First job card'))
+
+//WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/First card job search result'), 5)
+//
+//WebUI.click(findTestObject('Object Repository/Job search OR/First card job search result'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
 
@@ -31,20 +37,6 @@ WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View c
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile header'), 5)
-
-WebUI.verifyTextPresent(GlobalVariable.companyProfile, true)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile back button'), 5)
-
-WebUI.click(findTestObject('Object Repository/Company Profile OR/Company profile back button'))
-
-WebUI.waitForElementNotPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
-
-WebUI.verifyTextNotPresent(GlobalVariable.companyProfile, true)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+CustomKeywords.'checkwebsitebutton.checkVisitWebsiteButton'(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
 
 WebUI.closeBrowser()

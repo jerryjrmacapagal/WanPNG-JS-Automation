@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "31A38FB822F962DBEF1E592D26B5292F",
+  "keywordClasses": [
+    {
+      "name": "checkwebsitebutton",
+      "keywordMethods": [
+        {
+          "name": "checkVisitWebsiteButton",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
