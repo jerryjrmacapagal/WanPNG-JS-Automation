@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Job search OR/Company logo'))
 

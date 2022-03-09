@@ -27,9 +27,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Saved jobs tab OR/
 
 WebUI.click(findTestObject('Object Repository/Saved jobs tab OR/Saved jobs First card'))
 
-WebUI.waitForElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'), 5)
 
@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Applied job/Withdraw application button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview Close button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Saved jobs section'), 5)
 

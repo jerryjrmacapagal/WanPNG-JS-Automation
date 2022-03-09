@@ -24,17 +24,17 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/Firs
 //Job result
 WebUI.click(findTestObject('Object Repository/Job search OR/First card job search result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview next button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job preview next button'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/View company profile button'))
 //Applied Jobs
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job preview Close button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview Close button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Jobs page tab'), 5)
 
@@ -46,15 +46,15 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/First 
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/First job card'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/View company profile button'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job preview Close button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview Close button'))
 //Saved Jobs
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Saved jobs tab'), 5)
 
@@ -64,15 +64,15 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Save 
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Save jobs OR/First saved job card'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/View company profile button'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job preview Close button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview Close button'))
 //Invited to Apply
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Invited to apply tab'), 5)
 
@@ -82,16 +82,16 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Invit
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Invited to apply Section/First card Job invitation'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/View company profile button'))
 
 //SCENARIO 2: Verify the details upon clicking the "View company profile" button
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.click(findTestObject('Job Preview OR/View company profile button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
 

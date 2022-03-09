@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/First job card save button'), 5)
 
@@ -34,8 +34,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/First
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/First job card save button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Removed saved job toast message'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Removed saved job toast message'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Removed saved job toast message'), GlobalVariable.removeSave)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Removed saved job toast message'), GlobalVariable.removeSave)
 
 WebUI.closeBrowser()

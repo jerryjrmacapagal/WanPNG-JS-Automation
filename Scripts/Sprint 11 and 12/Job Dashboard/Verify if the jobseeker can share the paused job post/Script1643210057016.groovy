@@ -33,8 +33,8 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Paused Job'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Share job button'), 5)
+WebUI.verifyElementNotPresent(findTestObject('Job Preview OR/Share job button'), 5)
 
 WebUI.closeBrowser()

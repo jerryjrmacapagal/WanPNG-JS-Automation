@@ -19,26 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
 //SCENARIO 1: Verify if the toast message will appear when the user saved a job
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Save button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Save button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Save button'))
+WebUI.click(findTestObject('Job Preview OR/Save button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Save job toast message'), 5)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Save job toast message'), GlobalVariable.saveJobMessage)
 
 //SCENARIO 2: Verify if the toast message will appear when the user unsaved a job
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Saved button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Saved button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Saved button'))
+WebUI.click(findTestObject('Job Preview OR/Saved button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Removed saved job toast message'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Removed saved job toast message'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Removed saved job toast message'), GlobalVariable.removeSavedJobMessage)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Removed saved job toast message'), GlobalVariable.removeSavedJobMessage)
 
 WebUI.closeBrowser()

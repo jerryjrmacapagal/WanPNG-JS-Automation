@@ -29,8 +29,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Save 
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Save jobs OR/First saved job card'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Timestamp'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Timestamp'), 5)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Timestamp'))
+WebUI.verifyElementVisible(findTestObject('Job Preview OR/Employer Details/Timestamp'))
 
 WebUI.closeBrowser()

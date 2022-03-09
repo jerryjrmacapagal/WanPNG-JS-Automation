@@ -29,9 +29,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Save 
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Save jobs OR/First saved job card'))
 
-WebUI.waitForElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'), 5)
 
@@ -45,9 +45,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Appli
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Applied job/Applied toast message'), GlobalVariable.appliedToastMessage)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Timestamp'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Timestamp'), 5)
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Timestamp'), GlobalVariable.justNow)
+//WebUI.verifyElementText(findTestObject('Job Preview OR/Employer Details/Timestamp'), GlobalVariable.justNow)
 
 WebUI.verifyTextPresent(GlobalVariable.justNow, true)
 

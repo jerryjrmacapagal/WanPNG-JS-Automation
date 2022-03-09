@@ -19,53 +19,53 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
 WebUI.delay(5)
 
 //Verify employer details
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Location display'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Location display'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Career-level dsiplay'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Career-level dsiplay'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Employment type display'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Employment type display'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Job classification display'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Job classification display'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Publisher display'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Publisher display'), 5)
 
 //Buttons
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Save button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Save button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Save button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/Save button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Save button'), GlobalVariable.saveButton)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Save button'), GlobalVariable.saveButton)
 
-WebUI.verifyElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
-WebUI.verifyElementText(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), GlobalVariable.applyButton)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Employer Details/Apply now button'), GlobalVariable.applyButton)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.verifyElementClickable(findTestObject('Job Preview OR/View company profile button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), GlobalVariable.viewCompanyProfile)
+WebUI.verifyElementText(findTestObject('Job Preview OR/View company profile button'), GlobalVariable.viewCompanyProfile)
 
 //Verify Job details
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job Details/Job summary section'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job Details/Job summary section'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job Details/Job summary title'), GlobalVariable.jobSummaryTitle)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Job Details/Job summary title'), GlobalVariable.jobSummaryTitle)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job Details/Job description section'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job Details/Job description section'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job Details/Job description title'), GlobalVariable.jobDescriptionTitle)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Job Details/Job description title'), GlobalVariable.jobDescriptionTitle)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job Details/Salary sections'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job Details/Salary sections'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job Details/Salary title'), GlobalVariable.salaryTitle)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Job Details/Salary title'), GlobalVariable.salaryTitle)
 
 WebUI.closeBrowser()

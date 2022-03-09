@@ -19,18 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview next button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job preview next button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview next button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview next button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview previous button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job preview previous button'), 5)
 
 WebUI.closeBrowser()

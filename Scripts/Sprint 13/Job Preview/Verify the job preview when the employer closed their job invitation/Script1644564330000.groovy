@@ -31,12 +31,12 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Close
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Closed Jobs Filter OR/First Closed Job Card'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Closed Jobs OR/Closed job preview container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Closed Jobs OR/Closed job preview container'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Closed Jobs OR/Closed job text'), GlobalVariable.closedJobText)
+WebUI.verifyElementText(findTestObject('Job Preview OR/Closed Jobs OR/Closed job text'), GlobalVariable.closedJobText)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Closed Jobs OR/Back to previous page button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Closed Jobs OR/Back to previous page button'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Closed Jobs OR/Close button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Closed Jobs OR/Close button'), 5)
 
 WebUI.closeBrowser()

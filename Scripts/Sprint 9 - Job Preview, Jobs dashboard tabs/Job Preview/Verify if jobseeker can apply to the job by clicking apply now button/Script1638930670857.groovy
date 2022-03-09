@@ -24,9 +24,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Save 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Save jobs OR/First card Job search'))
 
 //Verify application modal
-WebUI.waitForElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'), 5)
 
@@ -50,9 +50,9 @@ WebUI.click(findTestObject('Object Repository/Jobs page OR/Apply job modal/Cance
 WebUI.verifyElementNotVisible(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'))
 
 //Verify if the application modal would close upon clicking the x button
-WebUI.waitForElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Close button'), 5)
 
@@ -61,9 +61,9 @@ WebUI.click(findTestObject('Object Repository/Jobs page OR/Apply job modal/Close
 WebUI.verifyElementNotVisible(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'))
 
 //Verify if jobseeker can apply to the job by clicking the apply now button
-WebUI.waitForElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.setText(findTestObject('Object Repository/Jobs page OR/Apply job modal/Message textarea'), GlobalVariable.applyMessage)
 

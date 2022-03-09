@@ -1564,4 +1564,34 @@
       <initValue>'Search jobs and companies hiring in Papua New Guinea!'</initValue>
       <name>jobSearchHeaderTitle</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Pending Invite'</initValue>
+      <name>pendingInvite</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'View job posting'</initValue>
+      <name>viewJobPosting</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'All messages'</initValue>
+      <name>allMessages</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Applications'</initValue>
+      <name>applications</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invitations'</initValue>
+      <name>invitations</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Thank you for the invitation'</initValue>
+      <name>thankyouInviteMessage</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

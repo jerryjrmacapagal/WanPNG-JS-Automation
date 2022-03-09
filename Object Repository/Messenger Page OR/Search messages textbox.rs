@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'ant-input-affix-wrapper messenger-inbox-search-input']</value>
+         <value>//input[@placeholder = 'Search messages']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>ant-input-affix-wrapper messenger-inbox-search-input</value>
+      <value>Search messages</value>
    </webElementProperties>
 </WebElementEntity>

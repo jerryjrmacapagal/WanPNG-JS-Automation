@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
 //SCENARIO 1: Verify company details section
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Timestamp'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Timestamp'), 5)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Timestamp'))
+WebUI.verifyElementVisible(findTestObject('Job Preview OR/Employer Details/Timestamp'))
 
 WebUI.closeBrowser()

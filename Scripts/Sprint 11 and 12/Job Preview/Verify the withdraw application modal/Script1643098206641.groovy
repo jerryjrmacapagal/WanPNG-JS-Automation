@@ -25,11 +25,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/First 
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/First job card'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Withdraw application button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Withdraw application button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Withdraw application button'))
+WebUI.click(findTestObject('Job Preview OR/Withdraw application button'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Withdraw application modal/Withdraw modal'), 5)
 

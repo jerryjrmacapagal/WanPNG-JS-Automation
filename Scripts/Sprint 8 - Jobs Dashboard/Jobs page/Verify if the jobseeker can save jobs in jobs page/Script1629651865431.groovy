@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Sprint 8 - Jobs Dashboard/Jobs page/Verify if the jobseeker can search for jobs by Job title"), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/First job card save button'))
 

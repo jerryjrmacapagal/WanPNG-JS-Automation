@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if a message instance is created when the jobseeker is invited to a job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59414d08-d424-45ec-97af-fb6e8c7be2eb</testCaseGuid>
+</TestCaseEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>First job card result</name>
+   <name>Job posting container</name>
    <tag></tag>
-   <elementGuidId>5c46ba6d-3716-46d5-8e56-217a0c5cda95</elementGuidId>
+   <elementGuidId>0791990e-5976-44a4-9ffe-ecef1c8fda58</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>div.job-posting-buttons-container</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/div[1]/ul[1]/a/div[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -28,18 +24,18 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>job-posting-buttons-container</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/div[1]/ul[1]/a/div[1]</value>
+      <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;job-posting-section&quot;]/div[@class=&quot;job-posting-buttons-container&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -67,6 +63,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/main/div/div/div[2]/div[1]/div[2]/div[1]/ul[1]/a/div</value>
+      <value>//section/div</value>
    </webElementXpaths>
 </WebElementEntity>

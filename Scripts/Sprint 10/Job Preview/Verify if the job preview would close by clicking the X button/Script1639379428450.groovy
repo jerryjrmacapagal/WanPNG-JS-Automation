@@ -21,12 +21,12 @@ WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Search result container'), 5)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job preview Close button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview Close button'))
 
 WebUI.closeBrowser()

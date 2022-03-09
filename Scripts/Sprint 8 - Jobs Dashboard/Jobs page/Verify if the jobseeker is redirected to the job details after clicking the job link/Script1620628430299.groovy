@@ -21,10 +21,10 @@ WebUI.callTestCase(findTestCase("Sprint 8 - Jobs Dashboard/Jobs page/Verify if t
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)

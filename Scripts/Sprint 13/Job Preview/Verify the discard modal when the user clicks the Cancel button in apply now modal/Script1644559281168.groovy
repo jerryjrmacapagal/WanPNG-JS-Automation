@@ -23,12 +23,12 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/Firs
 
 WebUI.click(findTestObject('Object Repository/Job search OR/First card job search result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
 //SCENARIO 1: Verify if the discard modal will appear when the user didn't input anything in the text field
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Cancel button'), 5)
 
@@ -39,9 +39,9 @@ WebUI.verifyElementNotPresent(findTestObject('Object Repository/Jobs page OR/Inv
 WebUI.verifyElementNotVisible(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'))
 
 //SCENARIO 2: Verify the discard modal when the user clicks the cancel button on the confirmation modal
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Message textarea'), 5)
 
@@ -85,6 +85,6 @@ WebUI.verifyElementNotVisible(findTestObject('Object Repository/Jobs page OR/Inv
 
 WebUI.verifyElementNotVisible(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.verifyElementVisible(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.closeBrowser()

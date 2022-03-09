@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
 //Apply
-WebUI.waitForElementPresent(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Employer Details/Apply now button'), 5)
 
-WebUI.click(findTestObject('Jobs page OR/Job Preview OR/Employer Details/Apply now button'))
+WebUI.click(findTestObject('Job Preview OR/Employer Details/Apply now button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Apply job modal/Apply job modal'), 5)
 
@@ -51,9 +51,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Withd
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Withdraw application modal/Withdraw button'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job preview Close button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job preview Close button'))
+WebUI.click(findTestObject('Job Preview OR/Job preview Close button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Search result container'), 5)
 

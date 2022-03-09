@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the message badge is displayed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3cc2140-5b9e-47f9-9308-765e4933b656</testCaseGuid>
+</TestCaseEntity>

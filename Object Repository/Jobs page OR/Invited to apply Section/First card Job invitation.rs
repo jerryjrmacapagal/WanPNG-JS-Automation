@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ul[@class='invited-job-enter-done'][1]//div[@class='job-card-container']</value>
+         <value>//ul[@class='job-card-list invited-job-enter-done'][1]//div[@class='job-card-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//ul[@class='invited-job-enter-done'][1]//div[@class='job-card-container']</value>
+      <value>//ul[@class='job-card-list invited-job-enter-done'][1]//div[@class='job-card-container']</value>
    </webElementProperties>
 </WebElementEntity>

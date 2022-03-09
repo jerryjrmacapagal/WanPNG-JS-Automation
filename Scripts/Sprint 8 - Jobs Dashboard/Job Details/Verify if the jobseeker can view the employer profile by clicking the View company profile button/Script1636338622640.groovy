@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/First job card result'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/First job card result'))
+WebUI.click(findTestObject('Job Preview OR/First job card result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 10)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/View company profile button'), 10)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.click(findTestObject('Job Preview OR/View company profile button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Company Profile/Job preview section'), 5)
 

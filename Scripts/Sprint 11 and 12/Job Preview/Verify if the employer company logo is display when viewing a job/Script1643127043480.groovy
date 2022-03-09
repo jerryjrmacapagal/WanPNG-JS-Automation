@@ -23,10 +23,10 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/First
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/First job card'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Publisher display'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Publisher display'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Employer Details/Employer company picture'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Employer Details/Employer company picture'), 5)
 
 WebUI.closeBrowser()

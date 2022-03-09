@@ -23,11 +23,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/Firs
 
 WebUI.click(findTestObject('Object Repository/Job search OR/First card job search result'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.waitForElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'))
+WebUI.click(findTestObject('Job Preview OR/View company profile button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
 
@@ -43,8 +43,8 @@ WebUI.waitForElementNotPresent(findTestObject('Object Repository/Company Profile
 
 WebUI.verifyTextNotPresent(GlobalVariable.companyProfile, true)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/Job posting container'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/Job posting container'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Job Preview OR/View company profile button'), 5)
+WebUI.verifyElementPresent(findTestObject('Job Preview OR/View company profile button'), 5)
 
 WebUI.closeBrowser()
