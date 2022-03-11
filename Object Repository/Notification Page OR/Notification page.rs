@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Notification pop over content</name>
+   <name>Notification page</name>
    <tag></tag>
-   <elementGuidId>aac89848-a471-4d08-8556-62d3da5c474f</elementGuidId>
+   <elementGuidId>84304767-b45a-4958-b2d4-b630c14f2372</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'ant-popover-content']//div[@class=&quot;ant-popover-inner-content&quot;]</value>
+         <value>//div[@class = 'notifications-section']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-popover-content</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//div[@class = 'ant-popover-content']//div[@class=&quot;ant-popover-inner-content&quot;]</value>
+      <value>notifications-section</value>
    </webElementProperties>
 </WebElementEntity>

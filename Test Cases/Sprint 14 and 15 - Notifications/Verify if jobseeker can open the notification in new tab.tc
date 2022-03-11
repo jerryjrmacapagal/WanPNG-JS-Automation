@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if jobseeker can open the notification in new tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5f2c675-b59b-427f-9b07-4a4fef4c6c17</testCaseGuid>
+</TestCaseEntity>

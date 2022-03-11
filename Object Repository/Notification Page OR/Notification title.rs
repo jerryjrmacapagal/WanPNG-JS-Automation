@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Notification pop over content</name>
+   <name>Notification title</name>
    <tag></tag>
-   <elementGuidId>aac89848-a471-4d08-8556-62d3da5c474f</elementGuidId>
+   <elementGuidId>acc9b7e9-b5e5-4b40-bf43-5a06d8a4697e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'ant-popover-content']//div[@class=&quot;ant-popover-inner-content&quot;]</value>
+         <value>//div[@class = 'notifications-header' and (text() = 'Notifications' or . = 'Notifications')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-popover-content</value>
+      <value>notifications-header</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//div[@class = 'ant-popover-content']//div[@class=&quot;ant-popover-inner-content&quot;]</value>
+      <value>Notifications</value>
    </webElementProperties>
 </WebElementEntity>

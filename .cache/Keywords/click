@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "A4DBDA84AABFBE61297CD3A484AA58E6",
+  "keywordClasses": [
+    {
+      "name": "click",
+      "keywordMethods": [
+        {
+          "name": "clickElement",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

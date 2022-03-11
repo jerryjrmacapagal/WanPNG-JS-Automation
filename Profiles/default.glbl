@@ -1594,4 +1594,9 @@
       <initValue>'Thank you for the invitation'</initValue>
       <name>thankyouInviteMessage</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Notifications'</initValue>
+      <name>notificationTitle</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
