@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Redirect to my profile
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //SCENARIO 1: Verify if Job Seeker can able to add Education background without School or University
@@ -214,5 +214,5 @@ WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Jobseekers Add Education/Edit education button'), 5)
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
 

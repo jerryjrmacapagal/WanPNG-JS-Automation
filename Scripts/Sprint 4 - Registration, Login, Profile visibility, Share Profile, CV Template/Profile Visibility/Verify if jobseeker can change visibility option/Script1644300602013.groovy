@@ -19,8 +19,8 @@ import internal.GlobalVariable as GlobalVariable
 //
 //CustomKeywords.'Login.loginAccount'()
 
-//WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Change profile visibility button'), 5)
 
@@ -62,4 +62,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Profile Vis
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Profile Visibility/Display profile visibility description'), GlobalVariable.hiddenVisibilityContent)
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

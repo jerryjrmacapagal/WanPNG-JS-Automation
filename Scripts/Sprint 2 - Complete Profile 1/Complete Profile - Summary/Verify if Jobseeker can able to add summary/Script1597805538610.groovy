@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //Redirect to my profile
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Redirect to my profile"), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:], FailureHandling.STOP_ON_FAILURE)
 
 //Execute testcase
@@ -66,4 +66,4 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Add Sum
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Add Summary/Summary content'), findTestData("Geochemist Summary").getValue("Summary", randomSummary))
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()

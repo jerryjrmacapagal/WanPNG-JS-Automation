@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/section/div/div/div/div/div[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;personal-information&quot;]/div/div[2]/span/text()[3]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;profile-section&quot;]/div[@class=&quot;ant-row ant-row-center&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-24 ant-col-lg-17&quot;]/div[@class=&quot;personal-information-container profile-item&quot;]/div[@class=&quot;personal-information-preview&quot;]/div[@class=&quot;personal-information-content&quot;]/span[@class=&quot;address&quot;]</value>
+      <value>//*[@id=&quot;personal-information&quot;]/div/div[2]/span/text()[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

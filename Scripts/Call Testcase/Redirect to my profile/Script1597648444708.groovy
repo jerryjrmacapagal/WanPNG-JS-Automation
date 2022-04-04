@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase("Call Testcase/Input data personal information")
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Personal info Next button'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 //Input data step 2
 WebUI.waitForElementPresent(findTestObject('Object Repository/Job Seeker Job Preferences OR/Job preferences Next button'), 10)

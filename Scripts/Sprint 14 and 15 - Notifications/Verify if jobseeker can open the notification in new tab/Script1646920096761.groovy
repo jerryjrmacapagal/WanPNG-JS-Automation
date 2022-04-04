@@ -43,4 +43,3 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Notification Page O
 
 WebUI.sendKeys(findTestObject('Object Repository/Notification Page OR/First Notification Card'), Keys.chord(Keys.CONTROL + Keys.SHIFT + Keys.ENTER))
 
-//WebUI.
