@@ -6,12 +6,16 @@
    <elementGuidId>d6de13c9-4acd-4448-95d7-b15fa1ba3583</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/main/section/div[2]/form/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.password-label</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;current-password-container&quot;]//span[@class=&quot;password-label&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/section/div[2]/form/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/main/section/div[2]/form/div[1]/span</value>
+      <value>//div[@class=&quot;current-password-container&quot;]//span[@class=&quot;password-label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

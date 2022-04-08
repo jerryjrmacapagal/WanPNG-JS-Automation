@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;work-experience&quot;]/div/div[2]/div/div/button</value>
+         <value>//*[@id=&quot;work-experience&quot;]/div/div[2]/div[1]/button</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;work-experience&quot;]/div/div[2]/div/div/button</value>
+      <value>//*[@id=&quot;work-experience&quot;]/div/div[2]/div[1]/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
