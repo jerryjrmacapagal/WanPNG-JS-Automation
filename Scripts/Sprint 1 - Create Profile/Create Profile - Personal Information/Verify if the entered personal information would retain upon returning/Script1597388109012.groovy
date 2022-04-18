@@ -77,12 +77,14 @@ WebUI.verifyElementNotClickable(findTestObject('Object Repository/Jobseekers Per
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobile number textbox'), 'value', mobileNumber + " " +  mobileNumber2, 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Select province dropdown'), 'Bougainville Region')
+//WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Select province dropdown'), 'Bougainville Region')
+
+WebUI.verifyTextPresent('Bougainville Region', true)
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/City or village textbox'), 'value', findTestData('Cities').getValue('Cities', randomCities), 5)
 
 WebUI.verifyElementAttributeValue(findTestObject('Object Repository/Jobseekers Personal Info OR/Date of birth textbox'), 'value', GlobalVariable.birthdateValue, 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Select sex dropdown'), GlobalVariable.femaleSex)
+WebUI.verifyTextPresent(GlobalVariable.femaleSex, true)
 
 WebUI.closeBrowser()

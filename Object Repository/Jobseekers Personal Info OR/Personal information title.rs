@@ -6,11 +6,15 @@
    <elementGuidId>e97fffab-10f4-40bb-ad89-59dfd8c2b2e6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'personal-information-header' and (text() = 'Personal information' or . = 'Personal information')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/h2</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -18,13 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
+      <webElementGuid>329a644c-e3c7-41fd-aac4-5a2384c51278</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>personal-information-header</value>
+      <webElementGuid>a3c0752e-59e9-406d-98a3-ce55734262b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Personal information</value>
+      <webElementGuid>67c040fd-a0b9-4ae2-b3bc-3bfbcf83f7a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/div[@class=&quot;create-profile-section&quot;]/div[@class=&quot;create-profile-step-container&quot;]/div[@class=&quot;personal-information-container&quot;]/div[@class=&quot;personal-information-form-container&quot;]/h2[@class=&quot;personal-information-header&quot;]</value>
+      <webElementGuid>dfc7e5fc-0f75-4cd0-9bdd-e89e675938db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div[2]/div/div/h2</value>
+      <webElementGuid>44698e7d-e440-46da-a58c-2416d8f2ff72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skills and competencies'])[1]/following::h2[1]</value>
+      <webElementGuid>efd1e5bf-2bbc-4388-bb3d-277049a932de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job preferences'])[1]/following::h2[1]</value>
+      <webElementGuid>3c3425dc-371a-4d0d-bfd2-38afba908e36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tell us about yourself so employers can get to know you and contact you for a job interview!'])[1]/preceding::h2[1]</value>
+      <webElementGuid>2ef80553-b6ee-4a68-b32b-900cbf999b31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Photo'])[1]/preceding::h2[1]</value>
+      <webElementGuid>b784b2ad-45d4-492a-9d1c-03964f9a15d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/h2</value>
+      <webElementGuid>a3407a51-891d-47aa-a7ab-fea27a3037f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

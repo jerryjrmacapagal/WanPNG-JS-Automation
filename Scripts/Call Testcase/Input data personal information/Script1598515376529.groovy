@@ -27,6 +27,8 @@ WebUI.setText(findTestObject('Object Repository/Jobseekers Personal Info OR/Mobi
 
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/Select province dropdown'))
 
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers Personal Info OR/div_Bougainville Region'), 10)
+
 WebUI.click(findTestObject('Object Repository/Jobseekers Personal Info OR/div_Bougainville Region'))
 
 String[] city = findTestData("Cities").getAllData()
