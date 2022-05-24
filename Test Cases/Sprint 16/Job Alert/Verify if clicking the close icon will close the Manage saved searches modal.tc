@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if clicking the close icon will close the Manage saved searches modal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55141ee3-c4d5-428b-aa2e-9d4b75e28eb5</testCaseGuid>
+</TestCaseEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Manage saved searches modal subtitle</name>
+   <name>Manage saved searches email alert label</name>
    <tag></tag>
-   <elementGuidId>37f0f40d-2c8e-4542-8f56-bca438d03be9</elementGuidId>
+   <elementGuidId>c827407a-489c-4b0a-87cb-5d7eea858d29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'saved-searches-modal-contents-text' and (text() = 'Job alerts are sent to your email and notification daily.' or . = 'Job alerts are sent to your email and notification daily.')]</value>
+         <value>//span[@class = 'notification-alert-text _text-bold' and (text() = 'Receive alerts via email &amp; notification' or . = 'Receive alerts via email &amp; notification')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,22 +18,22 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>cf6ab0de-f23a-410c-b6da-c8dd5eae5b0f</webElementGuid>
+      <webElementGuid>d32a86db-6044-447e-b944-fd3db6221590</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>saved-searches-modal-contents-text</value>
-      <webElementGuid>9c9cbb86-5d78-419a-8f06-5c2e53cfe670</webElementGuid>
+      <value>notification-alert-text _text-bold</value>
+      <webElementGuid>2f61a52a-066b-40a7-9cdc-d42cb0a39e72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Job alerts are sent to your email and notification daily.</value>
-      <webElementGuid>3170fa26-c8a3-4a8a-b1a7-7079d6cc079a</webElementGuid>
+      <value>Receive alerts via email &amp; notification</value>
+      <webElementGuid>ec7ee7b2-c5fe-472b-a13b-bdf49592653b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

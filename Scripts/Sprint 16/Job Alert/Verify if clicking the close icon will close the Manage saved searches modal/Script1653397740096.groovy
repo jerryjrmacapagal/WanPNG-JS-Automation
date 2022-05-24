@@ -21,35 +21,16 @@ WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Save search link'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Job search OR/Save search link'), "Save search")
+WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches link'), 5)
 
-WebUI.click(findTestObject('Object Repository/Job search OR/Save search link'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/Save search toast message'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches toast message'), 5)
-
-//SCENARIO 2: Verify if jobseeker is redirected to Managed saved searches modal after clicking the Manage saved searches link on the toast message
-WebUI.click(findTestObject('Object Repository/Job search OR/Manage saved searches toast message'))
+WebUI.click(findTestObject('Object Repository/Job search OR/Manage saved searches link'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches modal'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches modal title'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches modal subtitle'), 5)
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches modal close button'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches delete search'), 5)
+WebUI.click(findTestObject('Object Repository/Job search OR/Manage saved searches modal close button'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Saved search content'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches cancel button'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches Save button'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/Manage saved searches delete search'), 5)
-
-WebUI.click(findTestObject('Object Repository/Job search OR/Manage saved searches delete search'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/Job search OR/Manage saved searches modal'))
 
 WebUI.closeBrowser()

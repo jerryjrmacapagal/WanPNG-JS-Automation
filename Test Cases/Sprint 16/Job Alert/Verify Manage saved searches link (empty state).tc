@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Manage saved searches link (empty state)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>806fa4de-075f-46db-baac-42df12226e2c</testCaseGuid>
+</TestCaseEntity>

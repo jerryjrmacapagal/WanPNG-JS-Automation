@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Manage saved searches modal subtitle</name>
+   <name>Manage saved searches empty state title</name>
    <tag></tag>
-   <elementGuidId>37f0f40d-2c8e-4542-8f56-bca438d03be9</elementGuidId>
+   <elementGuidId>708bba3d-68d1-4aca-afe2-e2b7a5afba89</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = 'saved-searches-modal-contents-text' and (text() = 'Job alerts are sent to your email and notification daily.' or . = 'Job alerts are sent to your email and notification daily.')]</value>
+         <value>//div[@class = 'empty-state-header' and (text() = 'No saved searches yet' or . = 'No saved searches yet')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,23 +17,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>cf6ab0de-f23a-410c-b6da-c8dd5eae5b0f</webElementGuid>
+      <value>div</value>
+      <webElementGuid>cb8d1f9e-9788-41b0-b425-8b04b67840dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>saved-searches-modal-contents-text</value>
-      <webElementGuid>9c9cbb86-5d78-419a-8f06-5c2e53cfe670</webElementGuid>
+      <value>empty-state-header</value>
+      <webElementGuid>3dc6c38f-ba69-45ff-a13c-6db5ad3e04e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Job alerts are sent to your email and notification daily.</value>
-      <webElementGuid>3170fa26-c8a3-4a8a-b1a7-7079d6cc079a</webElementGuid>
+      <value>No saved searches yet</value>
+      <webElementGuid>ef6f9058-61ad-4cd8-ae5a-ac289467902b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

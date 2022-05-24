@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if Manage saved searches modal closes after clicking cancel button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b50e1fc1-3ff1-466d-96da-6393925fe278</testCaseGuid>
+</TestCaseEntity>
