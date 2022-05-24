@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Applied toast message</name>
+   <name>Change status button</name>
    <tag></tag>
-   <elementGuidId>e7d9b48b-0935-480d-b611-535728f8b9d1</elementGuidId>
+   <elementGuidId>3b61dd32-9d14-4732-96cc-bfb3e113ea62</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Your application for this position has been submitted.' or . = 'Your application for this position has been submitted.')]</value>
+         <value>//button[@class = 'ant-btn ant-dropdown-trigger -primary button-change-status applicant-status-dropdown' and (text() = 'Change status' or . = 'Change status')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,23 +17,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>5c50b77b-0cea-4f3a-bec6-184040071fae</webElementGuid>
+      <value>button</value>
+      <webElementGuid>8b2e5a98-9e7c-4285-b763-af61e8ed754d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-notification-notice-with-icon</value>
-      <webElementGuid>19dffd7c-8d46-4d12-9701-33fa294942e9</webElementGuid>
+      <value>ant-btn ant-dropdown-trigger -primary button-change-status applicant-status-dropdown</value>
+      <webElementGuid>c4a28c80-0673-4087-a2f4-311a137c96f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your application for this position has been submitted.</value>
-      <webElementGuid>28a995bf-05a8-47be-8808-fdadf366332c</webElementGuid>
+      <value>Change status</value>
+      <webElementGuid>5cf5cec4-721a-42fe-81f7-5f52e9881c13</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if toast message appears after clicking save search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c6a2ce2-841e-41ce-9710-e994c1714d18</testCaseGuid>
+</TestCaseEntity>

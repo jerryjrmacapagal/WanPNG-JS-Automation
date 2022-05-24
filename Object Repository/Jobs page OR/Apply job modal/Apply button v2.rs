@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Applied toast message</name>
+   <name>Apply button v2</name>
    <tag></tag>
-   <elementGuidId>e7d9b48b-0935-480d-b611-535728f8b9d1</elementGuidId>
+   <elementGuidId>b73b23bd-f789-4bf7-a28f-b0d61f145203</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Your application for this position has been submitted.' or . = 'Your application for this position has been submitted.')]</value>
+         <value>//button[@class = 'ant-btn ant-btn-default custom-modal-apply-button _button -solid -gold' and (text() = 'Apply' or . = 'Apply')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,23 +17,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>5c50b77b-0cea-4f3a-bec6-184040071fae</webElementGuid>
+      <value>button</value>
+      <webElementGuid>f594ec44-0f77-4c4c-a562-3c29335ca2ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-notification-notice-with-icon</value>
-      <webElementGuid>19dffd7c-8d46-4d12-9701-33fa294942e9</webElementGuid>
+      <value>ant-btn ant-btn-default custom-modal-apply-button _button -solid -gold</value>
+      <webElementGuid>190bf28e-de51-47f5-ba7f-5fdd5b587fd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your application for this position has been submitted.</value>
-      <webElementGuid>28a995bf-05a8-47be-8808-fdadf366332c</webElementGuid>
+      <value>Apply</value>
+      <webElementGuid>08bcf710-45af-47d5-8f64-b4ac9aa8ff44</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

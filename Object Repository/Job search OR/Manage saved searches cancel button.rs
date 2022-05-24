@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Applied toast message</name>
+   <name>Manage saved searches cancel button</name>
    <tag></tag>
-   <elementGuidId>e7d9b48b-0935-480d-b611-535728f8b9d1</elementGuidId>
+   <elementGuidId>fe755fcb-4bc5-4002-baf9-a48d65138671</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[(text() = 'Your application for this position has been submitted.' or . = 'Your application for this position has been submitted.')]</value>
+         <value>//button[@class = 'ant-btn ant-btn-default cancel-button _button -outline' and (text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,23 +17,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>5c50b77b-0cea-4f3a-bec6-184040071fae</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c7af8a3e-06ba-41e4-ba13-d42b92aedea9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-notification-notice-with-icon</value>
-      <webElementGuid>19dffd7c-8d46-4d12-9701-33fa294942e9</webElementGuid>
+      <value>ant-btn ant-btn-default cancel-button _button -outline</value>
+      <webElementGuid>be79f9d6-706d-414c-81dc-6d9d8f9e56a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Your application for this position has been submitted.</value>
-      <webElementGuid>28a995bf-05a8-47be-8808-fdadf366332c</webElementGuid>
+      <value>Cancel</value>
+      <webElementGuid>1f0475b6-3b3b-402a-868c-c92d5771e7c4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

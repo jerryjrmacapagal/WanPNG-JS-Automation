@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if scroll bar appears after receiving more than 4 notifications</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7049e7c-0ff8-4491-9d90-012a38180d31</testCaseGuid>
+</TestCaseEntity>

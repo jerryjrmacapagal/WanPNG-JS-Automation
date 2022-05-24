@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the jobseeker can receive notification when invited to apply for a job</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8f7e2ee0-67ba-4b69-acfd-6d03b65de352</testCaseGuid>
+</TestCaseEntity>
