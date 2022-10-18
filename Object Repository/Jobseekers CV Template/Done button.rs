@@ -6,6 +6,10 @@
    <elementGuidId>49831b0a-e3c5-4f7a-bce0-e0d4e86b04e2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'ant-btn ant-btn-default profile-template-button _button -solid -gold' and (text() = 'Done' or . = 'Done')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
       </entry>
@@ -18,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>37a9fb56-a799-4dee-a69f-36606d8b8a21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,13 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>06502ab3-de2e-4756-8fe6-5d705aaebad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn profile-template-button _button -solid -gold</value>
+      <value>ant-btn ant-btn-default profile-template-button _button -solid -gold</value>
+      <webElementGuid>7d2cf8b7-fb42-4911-9af5-bfa79cb88261</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Done</value>
+      <webElementGuid>3ac1fd01-f9b3-4f4d-b29f-b648ea2bc064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/section[@class=&quot;profile-header-section&quot;]/div[@class=&quot;profile-header-content&quot;]/div[@class=&quot;profile-header-menu-container&quot;]/button[@class=&quot;ant-btn profile-template-button _button -solid -gold&quot;]</value>
+      <webElementGuid>d21250e5-3675-4f67-a1a6-2c36356d72ea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>f2719484-fba9-49d0-9703-00a195a67661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/section/div/div/button</value>
+      <webElementGuid>7205e14a-ab0d-41b2-96b8-ef07992e3dc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a template for your profile'])[1]/following::button[1]</value>
+      <webElementGuid>7d3f84f8-c1cb-4547-9464-5210978bf5a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Career Development'])[1]/following::button[2]</value>
+      <webElementGuid>8ab3ad44-b154-4f50-8e64-8bba57506db7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard (Default)'])[1]/preceding::button[1]</value>
+      <webElementGuid>17f48870-1628-4f14-86ef-ff7aa5fb0761</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/div/button</value>
+      <webElementGuid>b30bcafc-10dc-466a-b536-c47bce82e6bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

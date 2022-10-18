@@ -17,20 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase("Call Testcase/Redirect to Jobs Page"), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase("Call Testcase/Employer Post a Job"), [:])
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Keyword searchbar'), 5)
+//SCENARIO 1: Verify if job card has "New" tag when job is created in 14 days or less
 
-WebUI.click(findTestObject('Object Repository/Jobs page OR/Keyword searchbar'))
+WebUI.callTestCase(findTestCase("Call Testcase/Search for a job"), [:])
 
-WebUI.setText(findTestObject('Object Repository/Jobs page OR/Input Keyword'), 'Motion Technology Inc')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Job search OR/New tag'), 5)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Jobs page OR/Search button'), 10)
+WebUI.verifyElementText(findTestObject('Object Repository/Job search OR/New tag'), GlobalVariable.newText)
+
+//SCENARIO 2: Verify if "New" tag is display when published date is more than 14 days
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Input Keyword'), 5)
+
+WebUI.sendKeys(findTestObject('Object Repository/Jobs page OR/Input Keyword'), Keys.chord(Keys.CONTROL + "a"))
+
+WebUI.sendKeys(findTestObject('Object Repository/Jobs page OR/Input Keyword'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.setText(findTestObject('Object Repository/Jobs page OR/Input Keyword'), "Foxmedia Corporation")
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Search button'), 5)
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Search button'))
 
-WebUI.delay(5)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Job search OR/New tag'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Search result container'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Jobs page OR/Search result counter'), 5)
+WebUI.closeBrowser()

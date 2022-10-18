@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the Job Seeker can see the print view and download the CV</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09f26abe-6372-49f7-8ae2-be859f049476</testCaseGuid>
+</TestCaseEntity>

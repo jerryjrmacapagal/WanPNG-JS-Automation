@@ -1421,7 +1421,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'jerry.macapagal+mastmining@ubidy.com'</initValue>
+      <initValue>'jerry.macapagal+motiontech@ubidy.com'</initValue>
       <name>employerDevUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1598,5 +1598,15 @@
       <description></description>
       <initValue>'Notifications'</initValue>
       <name>notificationTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://uatemployer.wanpng.com/'</initValue>
+      <name>employerUAT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'New'</initValue>
+      <name>newText</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

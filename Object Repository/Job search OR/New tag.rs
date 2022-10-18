@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>New tag</name>
+   <tag></tag>
+   <elementGuidId>468a6f2a-f146-49ce-a563-e24c9cdbfc82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'job-card-new-opportunity-tag' and (text() = 'New' or . = 'New')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fdbf9397-8fdd-4a14-8e0b-5a35786ade7a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>job-card-new-opportunity-tag</value>
+      <webElementGuid>23aa1ffa-21e2-486e-ad96-b9b7d69e826a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New</value>
+      <webElementGuid>02abaff3-02c1-43d5-aeee-677a43388950</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
