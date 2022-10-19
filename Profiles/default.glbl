@@ -1609,4 +1609,19 @@
       <initValue>'New'</initValue>
       <name>newText</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Initial Interview'</initValue>
+      <name>interviewTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hi Ben, Are you available for an initial interview?'</initValue>
+      <name>interviewDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You have been invited for an interview for'</initValue>
+      <name>interviewSchedNotifDescription</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Interview Title textbox</name>
+   <tag></tag>
+   <elementGuidId>0a9fcc4d-2995-4c61-93c0-5c998ad12b77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div/div[2]/div/div[2]/div/form/div/div[2]/div[2]/div[2]/div/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6a713f25-7f20-4f0e-b4d9-621a8ba292d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>interviewTitle</value>
+      <webElementGuid>93339018-ea14-4e9c-bf66-4e4c17475152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div/div[2]/div/div[2]/div/form/div/div[2]/div[2]/div[2]/div/div/input</value>
+      <webElementGuid>cc3f0f30-6d3d-4df3-a283-8341d7bafca4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

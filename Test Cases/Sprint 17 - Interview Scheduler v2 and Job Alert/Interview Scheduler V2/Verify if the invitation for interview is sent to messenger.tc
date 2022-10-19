@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify if the invitation for interview is sent to messenger</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46cdc74e-4a16-47f3-86a5-e9a40f3ceb2a</testCaseGuid>
+</TestCaseEntity>
