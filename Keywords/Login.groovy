@@ -22,8 +22,8 @@ class Login {
 
 	@Keyword
 	def GotoWanPNGpage() {
-//		WebUI.openBrowser(GlobalVariable.UAT)
-			WebUI.openBrowser(GlobalVariable.Dev)
+		//		WebUI.openBrowser(GlobalVariable.UAT)
+		WebUI.openBrowser(GlobalVariable.Dev)
 		//	WebUI.openBrowser(GlobalVariable.localhost)
 		WebUI.maximizeWindow()
 	}

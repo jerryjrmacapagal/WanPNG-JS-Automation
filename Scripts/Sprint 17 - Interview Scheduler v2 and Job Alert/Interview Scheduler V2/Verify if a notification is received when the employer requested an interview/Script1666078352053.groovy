@@ -30,6 +30,8 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Notification Page 
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Notification Page OR/Invitation notification description'), 5)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Notification Page OR/Invitation notification description'), GlobalVariable.interviewSchedNotifDescription)
+WebUI.verifyTextPresent(GlobalVariable.interviewSchedNotifDescription, 0)
 
 WebUI.closeBrowser()
+
+

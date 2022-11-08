@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase("Call Testcase/Employer Schedule Interview"), [:])
+
+WebUI.callTestCase(findTestCase("Call Testcase/Jobseeker Login"), [:])
+
+//Verify Messenger
+WebUI.waitForElementPresent(findTestObject('Object Repository/Jobseekers My Profile OR/Messenger tab'), 5)
+
+WebUI.click(findTestObject('Object Repository/Jobseekers My Profile OR/Messenger tab'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Messenger Page OR/Messages title'), 5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Messenger Page OR/Messages title'), GlobalVariable.messagesTitle)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Messenger Page OR/Active message thread'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Messenger Page OR/Message container'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Messenger Page OR/Interview Schedule'), 5)
+
+WebUI.closeBrowser()

@@ -1421,7 +1421,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'jerry.macapagal+motiontech@ubidy.com'</initValue>
+      <initValue>'qa.tester+microindustries@ubidy.com'</initValue>
       <name>employerDevUsername</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -1623,5 +1623,10 @@
       <description></description>
       <initValue>'You have been invited for an interview for'</initValue>
       <name>interviewSchedNotifDescription</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Messages'</initValue>
+      <name>messagesTitle</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

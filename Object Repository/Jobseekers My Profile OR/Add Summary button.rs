@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and @class = 'ant-btn empty-state-button _button -solid -gold' and (text() = 'Add Summary' or . = 'Add Summary')]</value>
+         <value>//*[@type = 'button' and @class = 'ant-btn ant-btn-default empty-state-button _button -solid -gold' and (text() = 'Add Summary' or . = 'Add Summary')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>09175c92-6daf-430d-8149-4f3e1aa3decf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,13 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>97568510-ee26-4e82-923e-64264f181f65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn empty-state-button _button -solid -gold</value>
+      <value>ant-btn ant-btn-default empty-state-button _button -solid -gold</value>
+      <webElementGuid>5752d10b-c9b2-4a00-ac64-177501f99610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add Summary</value>
+      <webElementGuid>672ff35c-2f57-4ef1-b041-7034a6c8473e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;profile-section&quot;]/div[@class=&quot;ant-row ant-row-center&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-24 ant-col-lg-17&quot;]/div[@class=&quot;summary-container profile-item&quot;]/div[@class=&quot;summary-preview-container&quot;]/div[@class=&quot;empty-state-container&quot;]/div[@class=&quot;add-button-container&quot;]/button[@class=&quot;ant-btn empty-state-button _button -solid -gold&quot;]</value>
+      <webElementGuid>43b371fa-b96f-45e1-9c2c-5720ea8c3043</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>494f5596-41cf-4918-b062-0641e0269544</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/section/div/div/div[2]/div/div/div/button</value>
+      <webElementGuid>919d884d-829d-4942-ad5d-713a4412ddf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a short summary that highlights your experiences, key skills, goals and interests.'])[1]/following::button[1]</value>
+      <webElementGuid>566c8e4f-dc7d-4ebb-8ce3-235542fc6be7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Summary'])[1]/following::button[1]</value>
+      <webElementGuid>ffc1462f-72cd-4dd2-ba49-5e5c901c15a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work experience'])[1]/preceding::button[1]</value>
+      <webElementGuid>4288bd88-f8e8-4457-a630-1d4232d28ef2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>594cfcda-2101-4b97-b583-7b458e1a18a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

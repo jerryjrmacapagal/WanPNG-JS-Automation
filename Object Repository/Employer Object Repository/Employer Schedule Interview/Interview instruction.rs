@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div/div[2]/div/div[2]/div/form/div/div[2]/div[2]/div[2]/div/div/input</value>
+         <value>/html/body/div[3]/div/div[2]/div/div[2]/div/form/div/div[2]/div[4]/div[2]/div/div/div/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,23 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div/div[2]/div/div[2]/div/form/div/div[2]/div[2]/div[2]/div/div/input</value>
-      <webElementGuid>d10611d1-668b-44dc-a76a-a9f14873d248</webElementGuid>
+      <value>/html/body/div[3]/div/div[2]/div/div[2]/div/form/div/div[2]/div[4]/div[2]/div/div/div/textarea</value>
+      <webElementGuid>5db312d2-6a62-4671-84a9-e34c9bd4b40e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>7697f51c-b655-424a-b9e9-442a4c15411f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>interviewInstructions</value>
+      <webElementGuid>87f9fd7b-1f34-41fc-b021-c559bab0abba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

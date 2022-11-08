@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'ant-btn save-button _button -solid -gold' and (text() = 'Save' or . = 'Save')]</value>
+         <value>//*[@class = 'ant-btn ant-btn-default save-button _button -solid -gold' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>cfbb20ea-e41c-4f03-8054-541c29feabfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,13 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>830e31d4-254c-47b1-9d4d-e945ffda9327</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn save-button _button -solid -gold</value>
+      <value>ant-btn ant-btn-default save-button _button -solid -gold</value>
+      <webElementGuid>f401bae7-3afd-4906-8450-f52614c52637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +46,7 @@
       <name>ant-click-animating-without-extra-node</name>
       <type>Main</type>
       <value>false</value>
+      <webElementGuid>fc97f5a0-c21c-4a9e-a50e-478d87de2b6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
+      <webElementGuid>819ce23e-437a-4a33-a08c-da0b48faa2d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ant-scrolling-effect&quot;]/div[3]/div[@class=&quot;ant-modal-root&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-centered&quot;]/div[@class=&quot;ant-modal profile-job-preferences-form-modal&quot;]/div[@class=&quot;ant-modal-content&quot;]/div[@class=&quot;ant-modal-body&quot;]/div[@class=&quot;job-preferences-form-container&quot;]/form[@class=&quot;ant-form ant-form-vertical ant-form-hide-required-mark&quot;]/div[@class=&quot;job-preferences-form-content&quot;]/div[@class=&quot;buttons-container&quot;]/button[@class=&quot;ant-btn save-button _button -solid -gold&quot;]</value>
+      <webElementGuid>63b19edb-3d9d-4880-82c7-3f4048c38921</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
+      <webElementGuid>36715ea7-730f-495b-ab94-97a2b70743fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>af174cb5-8138-40ae-bb58-5684e68401bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Availability is required'])[1]/following::button[2]</value>
+      <webElementGuid>678cdd43-0045-4d39-b2e8-b9cd8c36d248</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Internship'])[1]/preceding::button[1]</value>
+      <webElementGuid>1f42757e-d27c-440a-b420-e94f0f5893c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button[2]</value>
+      <webElementGuid>061ad236-2b7d-4c4e-8fbf-effc3728ba1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

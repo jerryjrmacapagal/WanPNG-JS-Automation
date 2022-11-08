@@ -23,7 +23,11 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Jobs page OR/Keywo
 
 WebUI.click(findTestObject('Object Repository/Jobs page OR/Keyword searchbar'))
 
-WebUI.setText(findTestObject('Object Repository/Jobs page OR/Input Keyword'), 'Motion Technology Inc')
+//UAT
+//WebUI.setText(findTestObject('Object Repository/Jobs page OR/Input Keyword'), 'Motion Technology Inc')
+
+//Dev
+WebUI.setText(findTestObject('Object Repository/Jobs page OR/Input Keyword'), 'Micro Industries')
 
 WebUI.waitForElementClickable(findTestObject('Object Repository/Jobs page OR/Search button'), 10)
 

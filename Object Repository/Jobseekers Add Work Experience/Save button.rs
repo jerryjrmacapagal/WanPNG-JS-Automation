@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @class = 'ant-btn ant-btn-default save-work-experience-form-button _button -solid -gold' and (text() = 'Save' or . = 'Save')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -18,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>a21e8d27-10c2-4f2f-9179-9357dba07ffd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -25,13 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
+      <webElementGuid>2bfc42fd-b865-4d2a-82ea-a82b3cc5bd75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn save-work-experience-form-button _button -solid -gold</value>
+      <value>ant-btn ant-btn-default save-work-experience-form-button _button -solid -gold</value>
+      <webElementGuid>fdb91cfb-608d-4aba-bf87-c1cae5c0ce25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
+      <webElementGuid>68f2480e-6f3e-4d95-b2fc-027d3c7354f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;profile-section&quot;]/div[@class=&quot;ant-row ant-row-center&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-md-24 ant-col-lg-17&quot;]/div[@class=&quot;work-experience-container profile-item&quot;]/div[@class=&quot;work-experience-form-container&quot;]/div[@class=&quot;add-work-experience-form-content&quot;]/form[@class=&quot;ant-form ant-form-vertical ant-form-hide-required-mark&quot;]/div[@class=&quot;add-work-experience-form-buttons&quot;]/button[@class=&quot;ant-btn save-work-experience-form-button _button -solid -gold&quot;]</value>
+      <webElementGuid>0bdfe667-1829-448f-8563-dd2f9f92b687</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
+      <webElementGuid>e456c2b4-d31b-4eaa-86ec-a6e4a1e0e570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/section/div/div/div[3]/div/div/form/div[7]/button[2]</value>
+      <webElementGuid>c6999ea2-be15-49ae-8f49-8972fe24d40d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
+      <webElementGuid>ff6ef544-0be2-4772-b116-af1a21f6f2a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='I currently work here'])[1]/following::button[2]</value>
+      <webElementGuid>51c3bb2f-e083-4979-8421-f5c5161def0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Education'])[1]/preceding::button[1]</value>
+      <webElementGuid>632c4ee5-c106-4d74-be3a-daee94ee0646</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/button[2]</value>
+      <webElementGuid>5c5a3885-2fbc-47ed-9605-a8f711b0825b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
