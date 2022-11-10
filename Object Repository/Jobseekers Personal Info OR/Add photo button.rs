@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and @class = 'ant-btn add-photo-button _button -outline' and (text() = ' Upload photo' or . = ' Upload photo')]</value>
+         <value>//*[@type = 'button' and @class = 'ant-btn ant-btn-default add-photo-button _button -outline' and (text() = ' Upload photo' or . = ' Upload photo')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>cfb40d0f-574e-457d-88ce-c5e7aa875bf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,13 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>cb6bdae8-fe55-4725-8da0-300cd1885218</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn add-photo-button _button -outline</value>
+      <value>ant-btn ant-btn-default add-photo-button _button -outline</value>
+      <webElementGuid>37b4c5c4-133a-4e0f-a78a-1b46b6f53b00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Upload photo</value>
+      <webElementGuid>3a2033ee-9a25-41fc-978e-02c4941fed37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,6 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/div[@class=&quot;create-profile-section&quot;]/div[@class=&quot;create-profile-step-container&quot;]/div[@class=&quot;personal-information-container&quot;]/div[@class=&quot;personal-information-form-container&quot;]/div[@class=&quot;personal-information-content&quot;]/div[@class=&quot;upload-photo-container&quot;]/div[@class=&quot;upload-button-container&quot;]/span[1]/div[@class=&quot;ant-upload ant-upload-select ant-upload-select-text&quot;]/span[@class=&quot;ant-upload&quot;]/button[@class=&quot;ant-btn add-photo-button _button -outline&quot;]</value>
+      <webElementGuid>20f1891a-156c-4ade-b2a3-51ebb1331d60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>a79f872a-fd24-4b89-8857-9146c58d57a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div[2]/div/div/div/div/div[2]/span/div/span/button</value>
+      <webElementGuid>34b1aa5a-ed5a-4556-a214-c5efb68d15eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tell us about yourself so employers can get to know you and contact you for a job interview!'])[1]/following::button[1]</value>
+      <webElementGuid>baeb091e-beb9-41da-a3b3-7ea1f758508e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal information'])[2]/following::button[1]</value>
+      <webElementGuid>e430af75-17dd-43b9-b976-ece7c9b45394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First name'])[1]/preceding::button[1]</value>
+      <webElementGuid>a350734f-6d29-4727-91c0-87b076bf0a5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/button</value>
+      <webElementGuid>4768701e-ba21-4978-a115-d56b1f92ca04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

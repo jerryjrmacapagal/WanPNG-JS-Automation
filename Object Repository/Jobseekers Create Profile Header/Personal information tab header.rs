@@ -9,22 +9,28 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class = 'personal-information-header' and (text() = 'Personal information' or . = 'Personal information')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h2</value>
+      <webElementGuid>db233ae4-4770-4287-b52b-c249b3474be3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>step-item-title -active</value>
+      <value>personal-information-header</value>
+      <webElementGuid>9a7e152d-b30f-4e7e-afb4-c5c2e29e7d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Personal information</value>
+      <webElementGuid>88526901-d9a8-44e2-ac01-a2aaa50ae75a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/div[@class=&quot;create-profile-section&quot;]/div[@class=&quot;steps-container&quot;]/div[@class=&quot;steps-container&quot;]/div[@class=&quot;step-item&quot;]/span[@class=&quot;step-item-title -active&quot;]</value>
+      <webElementGuid>2c83e92e-7d03-4304-a7d3-1fafb584aaf9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div/div/div/span</value>
+      <webElementGuid>5441f518-d817-4064-bfbb-5521e487620f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Hi Erik! Let', &quot;'&quot;, 's create your profile.')])[1]/following::span[1]</value>
+      <webElementGuid>87c972c3-9a1a-4a8f-80db-028a0fa5d11c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job preferences'])[1]/preceding::span[1]</value>
+      <webElementGuid>1b4fc2ef-65de-4b8c-81de-15029ba7ab8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skills and competencies'])[1]/preceding::span[2]</value>
+      <webElementGuid>d39b2235-c0ae-443a-a9d7-6a47a6b20d0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Personal information']/parent::*</value>
+      <webElementGuid>59e093af-7917-4fc2-be64-3d987ef3fdc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,5 +94,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/span</value>
+      <webElementGuid>a2e51d20-496c-429c-974c-445873284e6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

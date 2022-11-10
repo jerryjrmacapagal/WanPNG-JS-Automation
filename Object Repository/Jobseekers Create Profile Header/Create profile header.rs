@@ -9,29 +9,40 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div/h2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[@class = 'steps-description']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>steps-description</value>
+      <webElementGuid>6cef5f8c-235c-44d1-aad4-dab545b25a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>steps-description</value>
+      <webElementGuid>80ccbb27-eae2-4bfe-9df7-ef7e0f789c0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Hi Erik! Let's create your profile.</value>
+      <webElementGuid>c4d7c774-5a53-4b3d-8168-422ecaf243f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/div[@class=&quot;create-profile-section&quot;]/div[@class=&quot;steps-container&quot;]/h2[@class=&quot;steps-description&quot;]</value>
+      <webElementGuid>8246824a-2bf0-4578-b92a-641ddd48d32d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div/h2</value>
+      <webElementGuid>17f06eee-ae00-4ad3-9f32-00101ddb1402</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal information'])[1]/preceding::h2[1]</value>
+      <webElementGuid>d44d7eff-038f-4f00-82ae-5aeea290eace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job preferences'])[1]/preceding::h2[1]</value>
+      <webElementGuid>b31a8709-84da-455c-b583-55fa5d75a811</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,5 +82,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
+      <webElementGuid>e03af50e-e4de-4444-b187-0f679cb3127a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//h4[@class = 'company-job-title']</value>
+         <value>//span[@class = 'company-name-and-logo']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>span</value>
+      <webElementGuid>8ad2f5a5-36c4-41c2-ab76-a54488db4593</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>company-job-title</value>
+      <value>company-name-and-logo</value>
+      <webElementGuid>3b6a1fd4-689e-4fac-ba6b-b8120bd4cad5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

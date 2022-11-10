@@ -31,9 +31,9 @@ WebUI.click(findTestObject('Job Preview OR/View company profile button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/See Jobs button'), 5)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/View all jobs button'), 5)
 
-WebUI.click(findTestObject('Object Repository/Company Profile OR/See Jobs button'))
+WebUI.click(findTestObject('Object Repository/Company Profile OR/View all jobs button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Job search OR/Job search header'), 5)
 

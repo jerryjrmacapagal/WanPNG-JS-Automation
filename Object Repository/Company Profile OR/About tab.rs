@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>First saved job card</name>
+   <name>About tab</name>
    <tag></tag>
-   <elementGuidId>d588c415-720d-445e-add4-9bfbb2b2391d</elementGuidId>
+   <elementGuidId>6478d672-e574-4529-8350-7b3a740b8352</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//ul[@class=&quot;job-card-list saved-job-enter-done&quot;][1]//div[@class=&quot;job-card-container&quot;]</value>
+         <value>//*[@id = 'rc-tabs-0-tab-about']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>id</name>
       <type>Main</type>
-      <value>//ul[@class=&quot;job-card-list saved-job-enter-done&quot;][1]//div[@class=&quot;job-card-container&quot;]</value>
-      <webElementGuid>11e68f03-fd4e-4ad6-bcb5-cf12ace5645b</webElementGuid>
+      <value>rc-tabs-0-tab-about</value>
+      <webElementGuid>b93ba4d8-8a8a-47c9-b9e0-f914496ac2c2</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

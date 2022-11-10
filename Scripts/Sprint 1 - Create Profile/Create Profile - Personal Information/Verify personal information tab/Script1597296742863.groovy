@@ -35,7 +35,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Jobseekers Personal
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Jobseekers Personal Info OR/Add photo button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/Add Photo text'), 'Upload photo')
+WebUI.verifyTextPresent('Upload photo', true)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Jobseekers Personal Info OR/First name label'), 'First name')
 

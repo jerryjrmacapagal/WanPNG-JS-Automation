@@ -27,19 +27,17 @@ public class checkwebsitebutton  {
 
 		WebElement element = WebUiCommonHelper.findWebElement(object, 10)
 
-			if (element.asBoolean()) {
-				WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
-				
-				WebUI.click(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
-				
-				WebUI.getUrl()
-				
-				WebUI.delay(5)
-			
-				}
-			else {
-				System.out.println("No Website found!");
-			}
-		
+		if (element.asBoolean()) {
+			WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
+
+			WebUI.click(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
+
+			WebUI.getUrl()
+
+			WebUI.delay(5)
+		}
+		else {
+			System.out.println("No Website found!");
+		}
 	}
 }

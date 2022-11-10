@@ -6,29 +6,35 @@
    <elementGuidId>0791990e-5976-44a4-9ffe-ecef1c8fda58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.job-posting-buttons-container</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/section/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'job-posting-content -private']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.job-posting-buttons-container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>66490767-c11f-4e68-b6e9-31e72f7da19d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>job-posting-buttons-container</value>
+      <value>job-posting-content -private</value>
+      <webElementGuid>d7c5f81a-db87-451a-a54b-d215862f8620</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +42,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/section[@class=&quot;job-posting-section&quot;]/div[@class=&quot;job-posting-buttons-container&quot;]</value>
+      <webElementGuid>918183a7-f615-42ac-919e-4d82474be6e7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,6 +50,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/section/div</value>
+      <webElementGuid>bcbd709e-17af-4706-befb-c83ddcbf154d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -50,6 +58,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Architectural Engineer'])[1]/preceding::div[5]</value>
+      <webElementGuid>b6eda354-2984-4ad8-8471-d083b756b896</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Lumos Company IVV'])[1]/preceding::div[5]</value>
+      <webElementGuid>b07a9932-90e3-4ff5-91e1-dbb6b7594c9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,5 +74,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div</value>
+      <webElementGuid>281a25fa-2ae9-4a61-a261-7ce16a5f58fb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

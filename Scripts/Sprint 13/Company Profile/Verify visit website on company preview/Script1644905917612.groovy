@@ -37,6 +37,6 @@ WebUI.click(findTestObject('Job Preview OR/View company profile button'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
 
-CustomKeywords.'checkwebsitebutton.checkVisitWebsiteButton'(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
+//CustomKeywords.'checkwebsitebutton.checkVisitWebsiteButton'(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
 
 WebUI.closeBrowser()

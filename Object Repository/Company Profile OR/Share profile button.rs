@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Company Number</name>
+   <name>Share profile button</name>
    <tag></tag>
-   <elementGuidId>bcab579b-6f04-4580-9eba-e96ef5a0a4d7</elementGuidId>
+   <elementGuidId>ed3f16c8-cf99-420f-9f3b-1b215a929ffa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'phone-number-text']</value>
+         <value>//button[@class = 'ant-btn ant-btn-default ant-dropdown-trigger btn-share-profile _button -outline']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>7d4fdd39-f8ac-4682-b462-8bf75a471b6b</webElementGuid>
+      <value>button</value>
+      <webElementGuid>f1187ba1-8cba-44bf-9c77-4856c96652f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>phone-number-text</value>
-      <webElementGuid>2c589ea9-b3fa-49cd-aa35-0de6576e9d7a</webElementGuid>
+      <value>ant-btn ant-btn-default ant-dropdown-trigger btn-share-profile _button -outline</value>
+      <webElementGuid>6c381a3d-77fe-45c3-92be-49f56e5563c9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

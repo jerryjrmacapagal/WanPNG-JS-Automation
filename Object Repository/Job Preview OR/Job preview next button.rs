@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;root&quot;]/main/section/div[1]/div[2]</value>
+         <value>//div[@class=&quot;job-posting-button-container -right -job-posting-button-private&quot;]//div[@class=&quot;button-icon-container&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;root&quot;]/main/section/div[1]/div[2]</value>
+      <value>//div[@class=&quot;job-posting-button-container -right -job-posting-button-private&quot;]//div[@class=&quot;button-icon-container&quot;]</value>
+      <webElementGuid>06245571-3ad5-4ac1-ac60-d64ba7828411</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

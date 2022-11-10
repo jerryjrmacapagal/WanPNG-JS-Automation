@@ -33,11 +33,13 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile header'), 5)
 
-WebUI.verifyTextPresent(GlobalVariable.companyProfile, true)
+//WebUI.verifyTextPresent(GlobalVariable.companyProfile, true)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile back button'), 5)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile back button'), 5)
+//
+//WebUI.click(findTestObject('Object Repository/Company Profile OR/Company profile back button'))
 
-WebUI.click(findTestObject('Object Repository/Company Profile OR/Company profile back button'))
+WebUI.back()
 
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/Company Profile OR/Company profile section'), 5)
 

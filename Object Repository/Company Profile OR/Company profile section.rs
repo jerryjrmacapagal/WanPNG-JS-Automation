@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//section[@class = 'company-profile-section']</value>
+         <value>//section[@class = 'extended-company-profile-section']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,12 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>section</value>
+      <webElementGuid>47764d31-88e2-45ba-bb93-4247996c850d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>company-profile-section</value>
+      <value>extended-company-profile-section</value>
+      <webElementGuid>5c12a786-e33d-4cd7-bac6-8a1de3604cd3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

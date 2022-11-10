@@ -9,22 +9,28 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div[2]/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'personal-information-secondary-header' and (text() = 'Tell us about yourself so employers can get to know you and contact you for a job interview!' or . = 'Tell us about yourself so employers can get to know you and contact you for a job interview!')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
+      <webElementGuid>b1a403aa-cd34-4b18-a414-19a425805d59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>personal-information-secondary-header</value>
+      <webElementGuid>0f0fa232-bed2-48ad-aea2-183ced7de347</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tell us about yourself so employers can get to know you and contact you for a job interview!</value>
+      <webElementGuid>bcb54677-7e9a-43eb-b5fc-4c60336e5612</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/div[@class=&quot;create-profile-section&quot;]/div[@class=&quot;create-profile-step-container&quot;]/div[@class=&quot;personal-information-container&quot;]/div[@class=&quot;personal-information-form-container&quot;]/span[@class=&quot;personal-information-secondary-header&quot;]</value>
+      <webElementGuid>b5e3d93c-e3d2-4c9a-ae48-1435146e82ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div[2]/div/div/span</value>
+      <webElementGuid>afec228c-67b5-4f7d-ac44-05236c3bd19a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal information'])[2]/following::span[1]</value>
+      <webElementGuid>b1a3841d-721c-4102-accf-9ea6e4c1f5eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skills and competencies'])[1]/following::span[1]</value>
+      <webElementGuid>86e9322c-3910-4b92-8e97-cabe9afec064</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Photo'])[1]/preceding::span[4]</value>
+      <webElementGuid>ffc73b09-a48d-4281-bb1e-6b25344b842a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='First name'])[1]/preceding::span[7]</value>
+      <webElementGuid>8e9af9ac-a68f-41d2-b82c-fd50fa30bdff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tell us about yourself so employers can get to know you and contact you for a job interview!']/parent::*</value>
+      <webElementGuid>c34bd1f0-29f5-4ef9-bccc-14dbedb05399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/span</value>
+      <webElementGuid>d7a35cb7-fb12-44fd-b60f-8efc587f741a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

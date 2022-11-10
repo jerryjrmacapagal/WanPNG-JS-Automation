@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Careers tab</name>
+   <tag></tag>
+   <elementGuidId>8a90411b-b8d9-4e99-b5f7-9c776dcf9c5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'rc-tabs-0-tab-careers']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f6ec26ef-430d-4e14-a138-020cfee35474</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-tabs-tab-btn</value>
+      <webElementGuid>3398ef43-7fd6-426b-a5d0-c458ebdc6503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Careers</value>
+      <webElementGuid>b49281ee-715d-4f41-90c8-706df4b7875a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>rc-tabs-0-tab-careers</value>
+      <webElementGuid>c28fd9ad-79ed-4c85-a7a8-f68d3e77e167</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

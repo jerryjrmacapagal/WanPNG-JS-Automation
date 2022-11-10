@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Company Number</name>
+   <name>About us subtitle</name>
    <tag></tag>
-   <elementGuidId>bcab579b-6f04-4580-9eba-e96ef5a0a4d7</elementGuidId>
+   <elementGuidId>fe4f8366-20a3-4d40-916e-e5a2a06ddbff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'phone-number-text']</value>
+         <value>//div[@class = 'wysiwyg-content-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,14 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7d4fdd39-f8ac-4682-b462-8bf75a471b6b</webElementGuid>
+      <webElementGuid>1d9e3e50-930a-461c-83f2-a8e79f76744d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>phone-number-text</value>
-      <webElementGuid>2c589ea9-b3fa-49cd-aa35-0de6576e9d7a</webElementGuid>
+      <value>wysiwyg-content-container</value>
+      <webElementGuid>8a245061-15e1-4ab3-9cba-1de618dc68cd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

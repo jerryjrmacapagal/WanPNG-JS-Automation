@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@class = 'ant-btn yes-button _button -solid -gold']</value>
+         <value>//button[@class = 'ant-btn ant-btn-default yes-button _button -solid -gold']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,12 +18,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
+      <webElementGuid>e1370157-bc1d-4807-b12a-5e94e62de58f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ant-btn yes-button _button -solid -gold</value>
+      <value>ant-btn ant-btn-default yes-button _button -solid -gold</value>
+      <webElementGuid>385edb64-4780-4510-b11d-d1cc4060eca8</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

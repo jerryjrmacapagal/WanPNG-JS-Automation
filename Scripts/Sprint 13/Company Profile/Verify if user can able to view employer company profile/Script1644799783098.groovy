@@ -97,7 +97,7 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Company Profile OR
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company profile header'), 5)
 
-WebUI.verifyTextPresent(GlobalVariable.companyProfile, true)
+//WebUI.verifyTextPresent(GlobalVariable.companyProfile, true)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Name'), 5)
 
@@ -107,21 +107,45 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Address'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Website'), 5)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Website'), 5)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Company Website'))
+//WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Company Website'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Number'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Visit Website button'), 5)
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Visit Website button'), 5)
+//
+//WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Visit Website button'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Share profile button'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/See Jobs button'), 5)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/Share profile button'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/See Jobs button'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/View all jobs button'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Summary Section'), 5)
+WebUI.verifyElementClickable(findTestObject('Object Repository/Company Profile OR/View all jobs button'))
+
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Company Summary Section'), 5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Careers tab'), 5)
+
+//Careers tab
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Latest jobs title'), 5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Company Profile OR/Latest jobs title'), 'Latest Jobs')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/Latest Jobs list'), 5)
+
+//About tab
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/About tab'), 5)
+
+WebUI.click(findTestObject('Object Repository/Company Profile OR/About tab'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/About us title'), 5)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Company Profile OR/About us title'), 'About us')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Company Profile OR/About us subtitle'), 5)
 
 WebUI.verifyTextPresent(GlobalVariable.about, true)
 

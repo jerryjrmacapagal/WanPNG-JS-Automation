@@ -9,22 +9,28 @@
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div/div/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'step-item-number -active' and (text() = '1' or . = '1')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>9bc1f906-c5e1-4544-b6c3-d629e587bc6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>step-item-number -active</value>
+      <webElementGuid>b6dec097-6b8a-427a-937d-cf77a619273f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,6 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>1</value>
+      <webElementGuid>824a0be5-3c49-4ea8-ba6f-58ec3c2f692d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,6 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;main-section&quot;]/div[@class=&quot;create-profile-section&quot;]/div[@class=&quot;steps-container&quot;]/div[@class=&quot;steps-container&quot;]/div[@class=&quot;step-item&quot;]/div[@class=&quot;step-item-number -active&quot;]</value>
+      <webElementGuid>08490daf-ac4b-435b-842f-25ea63e48645</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div/div/div/div</value>
+      <webElementGuid>6de18a82-8b77-4dea-9e95-bf9adf301739</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,6 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal information'])[1]/following::div[1]</value>
+      <webElementGuid>5383d821-a1c7-43cb-bf64-c7aa8ebb042e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,6 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Hi Erik! Let', &quot;'&quot;, 's create your profile.')])[1]/following::div[3]</value>
+      <webElementGuid>55151138-650e-4a3d-9da1-284357de4a68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job preferences'])[1]/preceding::div[2]</value>
+      <webElementGuid>cf8c6cbc-5548-440f-954e-7224e313f6d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skills and competencies'])[1]/preceding::div[5]</value>
+      <webElementGuid>26274513-6597-4f05-ac02-8fe9f8d26c7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>5673a98d-fe38-4625-85fe-55006092a0cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +102,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div</value>
+      <webElementGuid>a9dbd064-634a-44c3-bbae-8c724085aa02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
